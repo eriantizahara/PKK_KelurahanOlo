@@ -53,13 +53,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                        <a href="<?= base_url() ?>/" class="nav-item nav-link active">Beranda</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
                             <div class="dropdown-menu m-0">
-                                <a href="feature.html" class="dropdown-item">Monografi</a>
-                                <a href="feature.html" class="dropdown-item">Visi dan Misi</a>
-                                <a href="product.html" class="dropdown-item">Struktur Organisasi</a>
+                                <a href="<?= base_url() ?>/profile/umum" class="dropdown-item">Monografi</a>
+                                <a href="<?= base_url() ?>/profile/visi-misi" class="dropdown-item">Visi dan Misi</a>
+                                <a href="<?= base_url() ?>/profile/struktur" class="dropdown-item">Struktur Organisasi</a>
                             </div>
                         </div>
                         <a href="#" class="nav-item nav-link">Pelayanan</a>
