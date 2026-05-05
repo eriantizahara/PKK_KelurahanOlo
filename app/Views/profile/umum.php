@@ -172,7 +172,7 @@
             <div class="row g-5">
                 <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="about-img rounded h-100">
-                        <img src="<?= base_url() ?>/assets/img/peta.png" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
+                        <img src="<?= base_url() ?>/assets/img/peta.jpeg" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
                         <!-- <div class="about-exp"><span>20 Years Experiance</span></div> -->
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                                             <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-map text-white fa-2x"></i></div>
                                         </div>
                                         <div class="">
-                                            <a href="#" class="h4 d-inline-block mb-3">Standard Product</a>
+                                            <a href="#" class="h4 d-inline-block mb-3">Geografis Wilayah</a>
                                             <p class="mb-0">Ditinjau secara geografis wilayah Kelurahan Olo terletak anatara 100-22°10 bujur timur dan 0,21°10° lintang Selatan yang mempunyai ketinggian 1,5 M diatas permukaan laut</p>
                                         </div>
                                     </div>
