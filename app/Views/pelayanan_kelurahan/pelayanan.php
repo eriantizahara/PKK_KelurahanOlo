@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Visi dan Misi TP PKK</title>
+    <title>PKK - Kelurahan Olo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -27,21 +27,30 @@
 
     <!-- Template Stylesheet -->
     <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .layanan-card {
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .layanan-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(13, 110, 253, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
 </head>
-
-<style>
-    /* Efek hover card */
-    .hover-card {
-        transition: all 0.3s ease;
-        cursor: pointer;
-    }
-
-    .hover-card:hover {
-        transform: translateY(-10px);
-        /* naik ke atas */
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-    }
-</style>
 
 <body>
 
@@ -78,10 +87,10 @@
                             <a href="<?= base_url('profile/struktur') ?>" class="dropdown-item">Struktur Organisasi</a>
                         </div>
                     </div>
-                    <a href="<?= base_url('layanan') ?>" class="nav-item nav-link">Pelayanan</a>
+                    <a href="<?= base_url('layanan') ?>" class="nav-item nav-link active">Pelayanan</a>
                     <!-- <a href="blog.html" class="nav-item nav-link">Berita</a> -->
-                    <div class="nav-item dropdown active">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">PKK</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PKK</a>
                         <div class="dropdown-menu m-0">
                             <a href="<?= base_url('pkk/profile') ?>" class="dropdown-item">Profile TP PKK</a>
                             <a href="<?= base_url('pkk/visi-misi') ?>" class="dropdown-item">Visi dan Misi</a>
@@ -100,10 +109,11 @@
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Visi dan Misi</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Pelayanan Kelurahan Olo</h4>
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                    <li class="breadcrumb-item active text-primary">Visi dan Misi</li>
+                    <!-- <li class="breadcrumb-item"><a href="<?= base_url() ?>/">Beranda</a></li> -->
+                    <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
+                    <!-- <li class="breadcrumb-item active text-primary">Visi dan Misi</li> -->
                 </ol>
             </div>
         </div>
@@ -111,92 +121,115 @@
     </div>
     <!-- Navbar & Hero End -->
 
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+
+    <!-- PELAYANAN START -->
     <div class="container py-5">
 
-        <!-- JUDUL -->
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-primary">Visi dan Misi TP PKK</h2>
-            <h5 class="text-muted">Kelurahan Olo Kecamatan Padang Barat</h5>
+            <h2 class="fw-bold">Pelayanan Kelurahan Olo</h2>
+            <p class="text-muted">Memberikan pelayanan terbaik kepada masyarakat</p>
         </div>
 
-        <!-- GAMBAR UTAMA -->
-        <div class="text-center mb-5">
-            <img src="<?= base_url() ?>/assets/img/visi misi pkk.png"
-                class="img-fluid rounded shadow"
-                style="max-height: 500px; object-fit: contain;"
-                alt="Visi Misi PKK">
-        </div>
-
-        <!-- KONTEN VISI MISI -->
         <div class="row g-4">
 
-            <!-- VISI -->
-            <div class="col-md-6">
-                <div class="p-4 p-md-5 bg-white rounded shadow-sm h-100 border-top border-success border-4 hover-card">
-
-                    <div class="text-center mb-3">
-                        <i class="fas fa-eye fa-2x text-success mb-2"></i>
-                        <h3 class="fw-bold text-success">VISI</h3>
+            <!-- 1. ADMINISTRASI -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card layanan-card p-4 h-100 border-0 shadow-sm">
+                    <div class="icon-box mb-3">
+                        <i class="fas fa-file-alt fa-2x text-primary"></i>
                     </div>
-
-                    <p class="text-muted" style="text-align: justify; line-height: 1.9;">
-                        Terwujudnya keluarga yang beriman dan bertaqwa kepada Tuhan Yang Maha Esa,
-                        berakhlak mulia, cerdas dan sehat serta mampu bersaing dalam era digital.
+                    <h5 class="fw-bold">Pelayanan Administrasi</h5>
+                    <p class="text-muted">
+                        Pelayanan surat menyurat dan administrasi kependudukan bagi masyarakat.
                     </p>
 
+                    <ul class="text-muted">
+                        <li>Surat Keterangan Tidak Mampu (SKTM)</li>
+                        <li>Surat Pengantar Nikah</li>
+                        <li>Surat Domisili</li>
+                        <li>Surat Keterangan Usaha</li>
+                        <li>Pengantar KTP & KK</li>
+                    </ul>
                 </div>
             </div>
 
-            <!-- MISI -->
-            <div class="col-md-6">
-                <div class="p-4 p-md-5 bg-white rounded shadow-sm h-100 border-top border-primary border-4 hover-card">
-
-                    <div class="text-center mb-3">
-                        <i class="fas fa-bullseye fa-2x text-primary mb-2"></i>
-                        <h3 class="fw-bold text-primary">MISI</h3>
+            <!-- 2. PENGADUAN -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card layanan-card p-4 h-100 border-0 shadow-sm">
+                    <div class="icon-box mb-3">
+                        <i class="fas fa-comments fa-2x text-primary"></i>
                     </div>
+                    <h5 class="fw-bold">Pengaduan Masyarakat</h5>
+                    <p class="text-muted">
+                        Menampung dan menindaklanjuti laporan atau keluhan masyarakat
+                        terkait pelayanan publik dan kondisi lingkungan.
+                    </p>
 
-                    <ol class="text-muted ps-3" style="text-align: justify; line-height: 1.9;">
-
-                        <li class="mb-3">
-                            Membentuk karakter keluarga dengan cara menghayati dan mengamalkan Pancasila
-                            serta meningkatkan pelaksanaan hak dan kewajiban sesuai dengan HAM,
-                            demokrasi, dan gotong royong.
-                        </li>
-
-                        <li class="mb-3">
-                            Menumbuhkan lingkungan keluarga yang cerdas, mandiri, dan sehat melalui pendidikan,
-                            keterampilan, gemar berkoperasi, hidup bersih, serta perencanaan sehat yang baik.
-                        </li>
-
-                    </ol>
-
+                    <ul class="text-muted">
+                        <li>Pengaduan pelayanan publik</li>
+                        <li>Masalah sosial & lingkungan</li>
+                        <li>Ketertiban & keamanan</li>
+                        <li>Fasilitas umum rusak</li>
+                    </ul>
                 </div>
             </div>
 
-        </div>
+            <!-- 3. PELAYANAN UMUM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card layanan-card p-4 h-100 border-0 shadow-sm">
+                    <div class="icon-box mb-3">
+                        <i class="fas fa-handshake fa-2x text-primary"></i>
+                    </div>
+                    <h5 class="fw-bold">Pelayanan Umum</h5>
+                    <p class="text-muted">
+                        Pelayanan langsung kepada masyarakat dalam mendukung
+                        kesejahteraan dan kebutuhan sosial.
+                    </p>
 
-        <!-- GARIS AKSEN -->
-        <div class="text-center mt-5">
-            <hr style="width: 120px; margin:auto; border: 4px solid #0d6efd;">
+                    <ul class="text-muted">
+                        <li>Pelayanan informasi publik</li>
+                        <li>Pelayanan bantuan sosial</li>
+                        <li>Pembinaan RT/RW</li>
+                        <li>Pelayanan kegiatan masyarakat</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
     </div>
-
+    <!-- PELAYANAN END -->
+    <!-- Footer Start -->
     <!-- ✅ FOOTER -->
     <div class="container-fluid bg-dark text-white text-center p-3">
         <p class="mb-0">© 2026 PKK Kelurahan Olo</p>
     </div>
+    <!-- Footer End -->
 
-    <!-- ✅ JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- SCRIPT UNTUK HILANGKAN SPINNER -->
-    <script>
-        window.onload = function() {
-            document.getElementById('spinner').classList.remove('show');
-        }
-    </script>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -210,7 +243,6 @@
 
     <!-- Template Javascript -->
     <script src="<?= base_url() ?>/assets/js/main.js"></script>
-
 </body>
 
 </html>
