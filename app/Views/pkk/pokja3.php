@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>POKJA I</title>
+    <title>POKJA III</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -252,100 +252,68 @@
         <!-- JUDUL -->
         <div class="text-center mb-4">
             <h2 class="page-title">
-                <i class="fas fa-landmark text-primary"></i> POKJA I
+                <i class="fas fa-landmark text-primary"></i> POKJA III
             </h2>
+
             <p class="subtitle">
-                Penghayatan dan Pengamalan Pancasila serta Gotong Royong
+                Pangan, Sandang, serta Perumahan dan Tata Laksana Rumah Tangga
             </p>
         </div>
 
         <!-- DESKRIPSI -->
         <div class="desc-box hover-card">
             <p style="text-align: justify; line-height:1.9;">
-                POKJA I TP PKK memiliki fokus pada pelaksanaan program Penghayatan dan Pengamalan Pancasila serta Gotong Royong.
-                Program ini bertujuan untuk membentuk karakter keluarga yang berlandaskan nilai-nilai Pancasila,
-                meningkatkan kesadaran kehidupan bermasyarakat, berbangsa, dan bernegara, serta memperkuat semangat kebersamaan
-                dan kepedulian sosial melalui budaya gotong royong di lingkungan masyarakat.
+                POKJA III TP PKK berfokus pada pelaksanaan program Pangan, Sandang, serta Perumahan dan Tata Laksana Rumah Tangga.
+                Program ini bertujuan untuk meningkatkan ketahanan pangan keluarga, mendorong kemandirian dalam pemenuhan kebutuhan sandang,
+                serta mewujudkan rumah tangga yang sehat, layak huni, dan tertata dengan baik.
+                Selain itu, POKJA III juga mengedepankan pemanfaatan sumber daya lokal secara optimal dalam mendukung kesejahteraan keluarga.
             </p>
         </div>
 
-        <!-- PROGRAM UTAMA -->
+        <!-- PROGRAM PANGAN -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-star"></i> Program Utama
+                <i class="fas fa-seedling"></i> Program Pangan
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Keluarga Indonesia Sejahtera Harmonis (KISAH)</li>
-                    <li>Cegah Perkawinan Anak (CEPAK)</li>
-                    <li>Calon Pengantin (CATIN)</li>
-                    <li>Lansia Siap Produktif (LANSIAP)</li>
-                    <li>Judi, Pinjol Teratasi (CEPAK)</li>
+                    <li>Taman Aku Hatinya PKK</li>
+                    <li>Makanan Sehat untuk Balita (MASITA)</li>
+                    <li>Tanam Ubi Tiap Rumah (TUBUH)</li>
+                    <li>Gerakan Memasyarakatkan Makan Ikan (GEMARKAN)</li>
+                    <li>Barcode Tanaman (BATA)</li>
+                    <li>Taman OLO PASS</li>
                 </ul>
             </div>
         </div>
 
-        <!-- PROGRAM LANJUTAN -->
+        <!-- PROGRAM SANDANG -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-layer-group"></i> Program Lanjutan
+                <i class="fas fa-tshirt"></i> Program Sandang
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Keluarga Indonesia Sehat Anti Narkoba (KRISAN)</li>
-                    <li>Keluarga Indonesia Lindungi Anak terhadap Kekerasan Seksual (KILAS)</li>
-                    <li>Keluarga Indonesia Anti Trafficking (KIAT)</li>
-                    <li>Pembinaan Kesadaran Bela Negara (PKBN)</li>
-                    <li>Keluarga Indonesia Sadar Administrasi Kependudukan (KISAK)</li>
+                    <li>Pembuatan Tingkuluak (PEMALU)</li>
+                    <li>Membudayakan Pakaian Adat (MUKA)</li>
+                    <li>Olo Basiba (OBA)</li>
                 </ul>
             </div>
         </div>
 
-        <!-- INOVASI -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-lightbulb"></i> Inovasi POKJA I
+                <i class="fas fa-leaf"></i> Program Perumahan dan Tata Laksana Rumah Tangga
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Konten Kreatif Remaja (KREMA)</li>
-                    <li>Penyuluhan Anti Tawuran dan Balap Liar (PENAWAR)</li>
-                    <li>Yatim Care (YARE)</li>
-                    <li>Family Gathering (FARING)</li>
-                    <li>Support Disabilitas (SUPPORT DIS)</li>
-                    <li>Sahabat PAAREDI (SAHATI)</li>
-                    <li>Sahabat Lansia (SASI)</li>
-                    <li>Sembako untuk Lansia bersama Dinas Pangan (SESIDIPANGAN)</li>
-                    <li>Berbagi Al-Qur’an bersama Polsek (BASAMO)</li>
-                    <li>Ayah Teladan Olo (ATO)</li>
-                    <li>Membudayakan Permainan Tradisional (BU MATRA)</li>
-                    <li>PKK Masuk Sekolah (PASLAH)</li>
-                    <li>Khitanan Massal (KHISAL)</li>
-                    <li>Tasmi’ Tahfidz Qur’an (TAHAN)</li>
-                    <li>Istiqomah di Masjid (ISI MESJID)</li>
-                    <li>PAAREDI Tangguh Peduli Bencana</li>
-                    <li>PAAREDI Tangguh Cinta Islam</li>
-                    <li>Balai Bermain PAAREDI</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- KEGIATAN LINGKUNGAN -->
-        <div class="section-box hover-card">
-            <div class="section-header">
-                <i class="fas fa-leaf"></i> Inovasi Pokja I Kegiatan Gontong Royong
-            </div>
-            <div class="section-body">
-                <ul>
-                    <li>Gotong Royong Bersama Olo Berpetualang (BOLANG)</li>
-                    <li>Gerakan Membersihkan Masjid Hari Jum’at (GEMMAR JUM’AT)</li>
-                    <li>PKK Peduli PAAREDI (PERI)</li>
-                    <li>PKK Bersih Pantai bersama Sahabat Bumi (PERAN SABUMI)</li>
-                    <li>Halal Bihalal Olo (HALLO)</li>
-                    <li>PKK Bersenam (PENA)</li>
-                    <li>Dapur Umum Olo</li>
-                    <li>PKK Peduli Jenazah</li>
-                    <li>PKK & Dompet Dhuafa Peduli Lansia</li>
+                    <li>Bank Sampah (BASAH)</li>
+                    <li>Buat Pupuk Kompos (BUK KOS)</li>
+                    <li>Pot Bunga dari Barang Bekas (TANGKAS)</li>
+                    <li>Edukasi Pemilahan Sampah (DIPILAH)</li>
+                    <li>Hiasan/Pot Tanaman dari Kelapa Muda (NONA MUDA)</li>
+                    <li>Dukungan Program Bedah Rumah (NAN MERAH)</li>
+                    <li>Hidroponik Plastik (DONAT)</li>
                 </ul>
             </div>
         </div>
@@ -354,7 +322,7 @@
         <div class="mt-5">
 
             <h5 class="text-center text-primary mb-4">
-                <i class="fas fa-images"></i> Dokumentasi Kegiatan POKJA I
+                <i class="fas fa-images"></i> Dokumentasi Kegiatan POKJA III
             </h5>
 
             <div class="gallery-grid">

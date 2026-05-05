@@ -127,10 +127,10 @@
                             <a href="<?= base_url('pkk/profile') ?>" class="dropdown-item">Profile TP PKK</a>
                             <a href="<?= base_url('pkk/visi-misi') ?>" class="dropdown-item">Visi dan Misi</a>
                             <a href="<?= base_url('pkk/struktur-organisasi') ?>" class="dropdown-item">Struktur Organisasi</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA I</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA II</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA III</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA IV</a>
+                            <a href="<?= base_url('pkk/pokja1') ?>" class="dropdown-item">POKJA I</a>
+                            <a href="<?= base_url('pkk/pokja2') ?>" class="dropdown-item">POKJA II</a>
+                            <a href="<?= base_url('pkk/pokja3') ?>" class="dropdown-item">POKJA III</a>
+                            <a href="<?= base_url('pkk/pokja4') ?>" class="dropdown-item">POKJA IV</a>
                         </div>
                     </div>
                     <a href="<?= base_url('kontak') ?>" class="nav-item nav-link">Kontak</a>
