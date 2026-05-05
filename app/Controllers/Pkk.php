@@ -18,4 +18,23 @@ class Pkk extends BaseController
     {
         return view('pkk/struktur_organisasi_tp_pkk');
     }
+    public function pokja1()
+    {
+        return view('pkk/pokja1');
+    }
+
+    public function pokja2()
+    {
+        return view('pkk/pokja2');
+    }
+
+    public function pokja3()
+    {
+        return view('pkk/pokja3');
+    }
+
+    public function pokja4()
+    {
+        return view('pkk/pokja4');
+    }
 }

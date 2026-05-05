@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Visi dan Misi TP PKK</title>
+    <title>POKJA III</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -40,6 +40,142 @@
         transform: translateY(-10px);
         /* naik ke atas */
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+
+    .section-header i {
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .page-title i {
+        margin-right: 10px;
+    }
+
+    body {
+        background: #f4f6f9;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /* Judul utama */
+    .page-title {
+        font-weight: 700;
+        color: var(--bs-primary);
+    }
+
+    /* Subjudul */
+    .subtitle {
+        color: #6c757d;
+    }
+
+    /* Box deskripsi */
+    .desc-box {
+        background: #ffffff;
+        border-left: 5px solid var(--bs-primary);
+        padding: 25px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+
+    /* Section */
+    .section-box {
+        background: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        margin-bottom: 35px;
+        transition: 0.3s;
+    }
+
+    .section-box:hover {
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Header section */
+    .section-header {
+        background: var(--bs-primary);
+        color: white;
+        padding: 14px 20px;
+        border-radius: 10px 10px 0 0;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    /* Isi */
+    .section-body {
+        padding: 22px 25px;
+    }
+
+    /* List */
+    .section-body ul {
+        padding-left: 20px;
+    }
+
+    .section-body ul li {
+        margin-bottom: 10px;
+        line-height: 1.8;
+        position: relative;
+    }
+
+    /* Bullet custom biar lebih rapi */
+    .section-body ul li::marker {
+        color: var(--bs-primary);
+    }
+
+    /* Divider */
+    .divider {
+        height: 2px;
+        background: #e9ecef;
+        margin: 50px 0;
+    }
+
+    /* GALERI PUZZLE */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 160px;
+        gap: 10px;
+    }
+
+    .gallery-item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.4s;
+    }
+
+    .gallery-item:hover img {
+        transform: scale(1.05);
+    }
+
+    /* Variasi ukuran (biar kayak puzzle) */
+    .gallery-item.big {
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
+    .gallery-item.wide {
+        grid-column: span 2;
+    }
+
+    .gallery-item.tall {
+        grid-row: span 2;
+    }
+
+    /* Overlay caption */
+    .gallery-overlay {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        font-size: 13px;
+        padding: 5px;
+        text-align: center;
     }
 </style>
 
@@ -100,10 +236,10 @@
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Visi dan Misi</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kelompok Kerja (POKJA)</h4>
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                    <li class="breadcrumb-item active text-primary">Visi dan Misi</li>
+                    <li class="breadcrumb-item active text-primary">POKJA I</li>
                 </ol>
             </div>
         </div>
@@ -114,73 +250,111 @@
     <div class="container py-5">
 
         <!-- JUDUL -->
-        <div class="text-center mb-5">
-            <h2 class="fw-bold text-primary">Visi dan Misi TP PKK</h2>
-            <h5 class="text-muted">Kelurahan Olo Kecamatan Padang Barat</h5>
+        <div class="text-center mb-4">
+            <h2 class="page-title">
+                <i class="fas fa-landmark text-primary"></i> POKJA III
+            </h2>
+
+            <p class="subtitle">
+                Pangan, Sandang, serta Perumahan dan Tata Laksana Rumah Tangga
+            </p>
         </div>
 
-        <!-- GAMBAR UTAMA -->
-        <div class="text-center mb-5">
-            <img src="<?= base_url() ?>/assets/img/visi misi pkk.png"
-                class="img-fluid rounded shadow"
-                style="max-height: 500px; object-fit: contain;"
-                alt="Visi Misi PKK">
+        <!-- DESKRIPSI -->
+        <div class="desc-box hover-card">
+            <p style="text-align: justify; line-height:1.9;">
+                POKJA III TP PKK berfokus pada pelaksanaan program Pangan, Sandang, serta Perumahan dan Tata Laksana Rumah Tangga.
+                Program ini bertujuan untuk meningkatkan ketahanan pangan keluarga, mendorong kemandirian dalam pemenuhan kebutuhan sandang,
+                serta mewujudkan rumah tangga yang sehat, layak huni, dan tertata dengan baik.
+                Selain itu, POKJA III juga mengedepankan pemanfaatan sumber daya lokal secara optimal dalam mendukung kesejahteraan keluarga.
+            </p>
         </div>
 
-        <!-- KONTEN VISI MISI -->
-        <div class="row g-4">
+        <!-- PROGRAM PANGAN -->
+        <div class="section-box hover-card">
+            <div class="section-header">
+                <i class="fas fa-seedling"></i> Program Pangan
+            </div>
+            <div class="section-body">
+                <ul>
+                    <li>Taman Aku Hatinya PKK</li>
+                    <li>Makanan Sehat untuk Balita (MASITA)</li>
+                    <li>Tanam Ubi Tiap Rumah (TUBUH)</li>
+                    <li>Gerakan Memasyarakatkan Makan Ikan (GEMARKAN)</li>
+                    <li>Barcode Tanaman (BATA)</li>
+                    <li>Taman OLO PASS</li>
+                </ul>
+            </div>
+        </div>
 
-            <!-- VISI -->
-            <div class="col-md-6">
-                <div class="p-4 p-md-5 bg-white rounded shadow-sm h-100 border-top border-success border-4 hover-card">
+        <!-- PROGRAM SANDANG -->
+        <div class="section-box hover-card">
+            <div class="section-header">
+                <i class="fas fa-tshirt"></i> Program Sandang
+            </div>
+            <div class="section-body">
+                <ul>
+                    <li>Pembuatan Tingkuluak (PEMALU)</li>
+                    <li>Membudayakan Pakaian Adat (MUKA)</li>
+                    <li>Olo Basiba (OBA)</li>
+                </ul>
+            </div>
+        </div>
 
-                    <div class="text-center mb-3">
-                        <i class="fas fa-eye fa-2x text-success mb-2"></i>
-                        <h3 class="fw-bold text-success">VISI</h3>
-                    </div>
+        <div class="section-box hover-card">
+            <div class="section-header">
+                <i class="fas fa-leaf"></i> Program Perumahan dan Tata Laksana Rumah Tangga
+            </div>
+            <div class="section-body">
+                <ul>
+                    <li>Bank Sampah (BASAH)</li>
+                    <li>Buat Pupuk Kompos (BUK KOS)</li>
+                    <li>Pot Bunga dari Barang Bekas (TANGKAS)</li>
+                    <li>Edukasi Pemilahan Sampah (DIPILAH)</li>
+                    <li>Hiasan/Pot Tanaman dari Kelapa Muda (NONA MUDA)</li>
+                    <li>Dukungan Program Bedah Rumah (NAN MERAH)</li>
+                    <li>Hidroponik Plastik (DONAT)</li>
+                </ul>
+            </div>
+        </div>
 
-                    <p class="text-muted" style="text-align: justify; line-height: 1.9;">
-                        Terwujudnya keluarga yang beriman dan bertaqwa kepada Tuhan Yang Maha Esa,
-                        berakhlak mulia, cerdas dan sehat serta mampu bersaing dalam era digital.
-                    </p>
+        <!-- GALERI PUZZLE -->
+        <div class="mt-5">
 
+            <h5 class="text-center text-primary mb-4">
+                <i class="fas fa-images"></i> Dokumentasi Kegiatan POKJA III
+            </h5>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item big">
+                    <img src="<?= base_url() ?>/assets/img/2.jpg">
+                    <!-- <div class="gallery-overlay">Kegiatan Sosial</div> -->
                 </div>
+
+                <div class="gallery-item">
+                    <img src="<?= base_url() ?>/assets/img/4.jpg">
+                </div>
+
+                <div class="gallery-item tall">
+                    <img src="<?= base_url() ?>/assets/img/3.png">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="<?= base_url() ?>/assets/img/5.png">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="<?= base_url() ?>/assets/img/6.jpg">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="<?= base_url() ?>/assets/img/1.png">
+                </div>
+
             </div>
 
-            <!-- MISI -->
-            <div class="col-md-6">
-                <div class="p-4 p-md-5 bg-white rounded shadow-sm h-100 border-top border-primary border-4 hover-card">
-
-                    <div class="text-center mb-3">
-                        <i class="fas fa-bullseye fa-2x text-primary mb-2"></i>
-                        <h3 class="fw-bold text-primary">MISI</h3>
-                    </div>
-
-                    <ol class="text-muted ps-3" style="text-align: justify; line-height: 1.9;">
-
-                        <li class="mb-3">
-                            Membentuk karakter keluarga dengan cara menghayati dan mengamalkan Pancasila
-                            serta meningkatkan pelaksanaan hak dan kewajiban sesuai dengan HAM,
-                            demokrasi, dan gotong royong.
-                        </li>
-
-                        <li class="mb-3">
-                            Menumbuhkan lingkungan keluarga yang cerdas, mandiri, dan sehat melalui pendidikan,
-                            keterampilan, gemar berkoperasi, hidup bersih, serta perencanaan sehat yang baik.
-                        </li>
-
-                    </ol>
-
-                </div>
-            </div>
-
         </div>
-
-        <!-- GARIS AKSEN -->
-        <div class="text-center mt-5">
-            <hr style="width: 120px; margin:auto; border: 4px solid #0d6efd;">
-        </div>
-
     </div>
 
     <!-- ✅ FOOTER -->

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>POKJA I</title>
+    <title>POKJA IV</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -252,109 +252,109 @@
         <!-- JUDUL -->
         <div class="text-center mb-4">
             <h2 class="page-title">
-                <i class="fas fa-landmark text-primary"></i> POKJA I
+                <i class="fas fa-landmark text-primary"></i> POKJA IV
             </h2>
+
             <p class="subtitle">
-                Penghayatan dan Pengamalan Pancasila serta Gotong Royong
+                Kesehatan, Kelestarian Lingkungan Hidup, dan Perencanaan Sehat
             </p>
         </div>
 
         <!-- DESKRIPSI -->
         <div class="desc-box hover-card">
             <p style="text-align: justify; line-height:1.9;">
-                POKJA I TP PKK memiliki fokus pada pelaksanaan program Penghayatan dan Pengamalan Pancasila serta Gotong Royong.
-                Program ini bertujuan untuk membentuk karakter keluarga yang berlandaskan nilai-nilai Pancasila,
-                meningkatkan kesadaran kehidupan bermasyarakat, berbangsa, dan bernegara, serta memperkuat semangat kebersamaan
-                dan kepedulian sosial melalui budaya gotong royong di lingkungan masyarakat.
+                POKJA IV TP PKK berfokus pada pelaksanaan program Kesehatan, Kelestarian Lingkungan Hidup, dan Perencanaan Sehat.
+                Program ini bertujuan untuk meningkatkan derajat kesehatan masyarakat, khususnya keluarga,
+                melalui penerapan perilaku hidup bersih dan sehat (PHBS), peningkatan gizi, serta
+                pencegahan berbagai penyakit. Selain itu, POKJA IV juga mendorong kesadaran masyarakat
+                dalam perencanaan kehidupan sehat, termasuk pencegahan stunting, kesehatan ibu dan anak,
+                serta peningkatan kualitas hidup lansia.
             </p>
         </div>
 
-        <!-- PROGRAM UTAMA -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-star"></i> Program Utama
+                <i class="fas fa-heartbeat"></i> Program Kelestarian Lingkungan Hidup
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Keluarga Indonesia Sejahtera Harmonis (KISAH)</li>
-                    <li>Cegah Perkawinan Anak (CEPAK)</li>
-                    <li>Calon Pengantin (CATIN)</li>
-                    <li>Lansia Siap Produktif (LANSIAP)</li>
-                    <li>Judi, Pinjol Teratasi (CEPAK)</li>
+                    <li>Penyuluhan Dan Pendampingan Persalinan Ditolong Tenaga  Kesehatan</li>
+                    <li>Penyuluhan Dan Pendampingan Pemberian Asi Eksklusif</li>
+                    <li>Menimbang Bayi Dan Balita Secara Berkala</li>
+                    <li>Penyuluhan Mengonsumsi Buah Dan Sayur</li>
+                    <li>Penyuluhan Pentingnya Melakukan Aktivitas Fisik Setiap Hari</li>
+                    <li>Penyuluhan Menggunakan Air Bersih</li>
+                    <li>Penyuluhan Cuci Tangan Dengan Sabun Dan Air Bersih</li>
+                    <li>Memberantas Jentik Nyamuk</li>
+                    <li>Penyuluhan Menggunakan Jamban Sehat</li>
+                    <li>Penyuluhan Tidak Merokok Di Dalam Rumah</li>
                 </ul>
             </div>
         </div>
 
-        <!-- PROGRAM LANJUTAN -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-layer-group"></i> Program Lanjutan
+                <i class="fas fa-lightbulb"></i> Program Kesehatan
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Keluarga Indonesia Sehat Anti Narkoba (KRISAN)</li>
-                    <li>Keluarga Indonesia Lindungi Anak terhadap Kekerasan Seksual (KILAS)</li>
-                    <li>Keluarga Indonesia Anti Trafficking (KIAT)</li>
-                    <li>Pembinaan Kesadaran Bela Negara (PKBN)</li>
-                    <li>Keluarga Indonesia Sadar Administrasi Kependudukan (KISAK)</li>
+                    <li>Khitanan Massal & Pengobatan Gratis (KITA SOBAT)</li>
+                    <li>Posyandu Balita & Lansia (PANDU LILA)</li>
+                    <li>Permainan Edukasi Posyandu (PEKAN YANDU)</li>
+                    <li>Kelas Ibu Hamil (KAMI)</li>
+                    <li>Senam Cuci Tangan (SENANG)</li>
+                    <li>Sosialisasi  Pangan Lokal Untuk Anak Stunting Dan Hamil (SIPANGKA)</li>
+                    <li>Demo Masak Bergizi (DEKAN GIZI)</li>
+                    <li>Penyuluhan Kesehatan Remaja (PEKAN REMAJA)</li>
+                    <li>Sosialisasi Napza (SOZA)</li>
+                    <li>Pmt Anak Stunting (PANTUN)</li>  
+                    <li>Isbanda (Istri Bank Pembangunan Daerah) Peduli Pmt Olo (ISBANDA PEDULI)</li>
+                    <li>POSYANDU GABUNGAN DI Mc DONAL (Pos Ganal)</li>
                 </ul>
             </div>
         </div>
 
-        <!-- INOVASI -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-lightbulb"></i> Inovasi POKJA I
+                <i class="fas fa-users"></i> Program Perencanaan Sehat
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Konten Kreatif Remaja (KREMA)</li>
-                    <li>Penyuluhan Anti Tawuran dan Balap Liar (PENAWAR)</li>
-                    <li>Yatim Care (YARE)</li>
-                    <li>Family Gathering (FARING)</li>
-                    <li>Support Disabilitas (SUPPORT DIS)</li>
-                    <li>Sahabat PAAREDI (SAHATI)</li>
-                    <li>Sahabat Lansia (SASI)</li>
-                    <li>Sembako untuk Lansia bersama Dinas Pangan (SESIDIPANGAN)</li>
-                    <li>Berbagi Al-Qur’an bersama Polsek (BASAMO)</li>
-                    <li>Ayah Teladan Olo (ATO)</li>
-                    <li>Membudayakan Permainan Tradisional (BU MATRA)</li>
-                    <li>PKK Masuk Sekolah (PASLAH)</li>
-                    <li>Khitanan Massal (KHISAL)</li>
-                    <li>Tasmi’ Tahfidz Qur’an (TAHAN)</li>
-                    <li>Istiqomah di Masjid (ISI MESJID)</li>
-                    <li>PAAREDI Tangguh Peduli Bencana</li>
-                    <li>PAAREDI Tangguh Cinta Islam</li>
-                    <li>Balai Bermain PAAREDI</li>
+                    <li>Sosialisasi NAPZA (SOZA)</li>
+                    <li>PMT Anak Stunting (PANTUN)</li>
+                    <li>ISBANDA Peduli PMT</li>
+                    <li>Pangan Lokal untuk Stunting (SIPANGKA)</li>
+                    <li>Posyandu Gabungan (POS GANAL)</li>
                 </ul>
             </div>
         </div>
 
-        <!-- KEGIATAN LINGKUNGAN -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-leaf"></i> Inovasi Pokja I Kegiatan Gontong Royong
+                <i class="fas fa-notes-medical"></i> Program Perencanaan Sehat
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Gotong Royong Bersama Olo Berpetualang (BOLANG)</li>
-                    <li>Gerakan Membersihkan Masjid Hari Jum’at (GEMMAR JUM’AT)</li>
-                    <li>PKK Peduli PAAREDI (PERI)</li>
-                    <li>PKK Bersih Pantai bersama Sahabat Bumi (PERAN SABUMI)</li>
-                    <li>Halal Bihalal Olo (HALLO)</li>
-                    <li>PKK Bersenam (PENA)</li>
-                    <li>Dapur Umum Olo</li>
-                    <li>PKK Peduli Jenazah</li>
-                    <li>PKK & Dompet Dhuafa Peduli Lansia</li>
+                    <li>Pojok Baca Kesehatan (POKAT)</li>
+                    <li>GIAT Stunting Rocky</li>
+                    <li>OTA untuk Ibu Hamil (OTA DI SINI)</li>
+                    <li>Parenting Stunting (PENTING)</li>
+                    <li>Cegah Kanker Serviks (CARI)</li>
+                    <li>Penyuluhan Stunting Balita (PENTING BALITA)</li>
+                    <li>Bimtek SIP (BISIK)</li>
+                    <li>Bimtek SIBIMA (BISIBIMA)</li>
+                    <li>Tuako Alam Peduli Stunting (TUAKO ADIL)</li>
+                    <li>Lansia Berdaya (LASER)</li>
                 </ul>
             </div>
         </div>
+
 
         <!-- GALERI PUZZLE -->
         <div class="mt-5">
 
             <h5 class="text-center text-primary mb-4">
-                <i class="fas fa-images"></i> Dokumentasi Kegiatan POKJA I
+                <i class="fas fa-images"></i> Dokumentasi Kegiatan POKJA IV
             </h5>
 
             <div class="gallery-grid">

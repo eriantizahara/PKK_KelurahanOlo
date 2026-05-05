@@ -41,6 +41,84 @@
         /* naik ke atas */
         box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
     }
+
+    .timeline {
+        position: relative;
+        margin: 30px 0;
+        padding-left: 30px;
+        border-left: 3px solid var(--bs-primary);
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 25px;
+        padding-left: 20px;
+    }
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -11px;
+        top: 5px;
+        width: 14px;
+        height: 14px;
+        background: var(--bs-primary);
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+
+    .timeline-card {
+        background: #fff;
+        border: 1px solid #e9ecef;
+        border-radius: 10px;
+        padding: 15px 20px;
+        transition: 0.3s;
+    }
+
+    .timeline-card:hover {
+        transform: translateX(5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .timeline-title {
+        font-weight: 600;
+        color: var(--bs-primary);
+        margin-bottom: 5px;
+    }
+
+    .timeline-icon {
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .program-box {
+        background: #ffffff;
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 15px 18px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        transition: 0.2s;
+    }
+
+    .program-box:hover {
+        border-color: var(--bs-primary);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .program-number {
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--bs-primary);
+        margin-right: 12px;
+        min-width: 30px;
+    }
+
+    .program-text {
+        font-size: 14.5px;
+        line-height: 1.6;
+    }
 </style>
 
 <body>
@@ -86,10 +164,10 @@
                             <a href="<?= base_url('pkk/profile') ?>" class="dropdown-item">Profile TP PKK</a>
                             <a href="<?= base_url('pkk/visi-misi') ?>" class="dropdown-item">Visi dan Misi</a>
                             <a href="<?= base_url('pkk/struktur-organisasi') ?>" class="dropdown-item">Struktur Organisasi</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA I</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA II</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA III</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA IV</a>
+                            <a href="<?= base_url('pkk/pokja1') ?>" class="dropdown-item">POKJA I</a>
+                            <a href="<?= base_url('pkk/pokja2') ?>" class="dropdown-item">POKJA II</a>
+                            <a href="<?= base_url('pkk/pokja3') ?>" class="dropdown-item">POKJA III</a>
+                            <a href="<?= base_url('pkk/pokja4') ?>" class="dropdown-item">POKJA IV</a>
                         </div>
                     </div>
                     <a href="<?= base_url('kontak') ?>" class="nav-item nav-link">Kontak</a>
@@ -131,8 +209,8 @@
 
 
         <!-- SECTION: PROGRAM UNGGULAN -->
-        <div class="mb-5">
-            <h4 class="fw-bold text-center mb-4">Program Unggulan “OLO PASS”</h4>
+        <div class="mb-4">
+            <h4 class="fw-bold text-center mb-3">Program Unggulan “OLO PASS”</h4>
 
             <div class="row text-center g-4">
 
@@ -171,7 +249,87 @@
             </div>
         </div>
 
+        <div class="bg-white p-4 p-md-4 rounded shadow-sm mb-5">
 
+            <h4 class="fw-bold text-center mb-4 text-primary">
+                10 Program Pokok PKK
+            </h4>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">01</div>
+                        <div class="program-text">Penghayatan dan Pengamalan Pancasila</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">02</div>
+                        <div class="program-text">Gotong Royong</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">03</div>
+                        <div class="program-text">Pangan</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">04</div>
+                        <div class="program-text">Sandang</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">05</div>
+                        <div class="program-text">Perumahan dan Tata Laksana Rumah Tangga</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">06</div>
+                        <div class="program-text">Pendidikan dan Keterampilan</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">07</div>
+                        <div class="program-text">Kesehatan</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">08</div>
+                        <div class="program-text">Pengembangan Kehidupan Berkoperasi</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">09</div>
+                        <div class="program-text">Kelestarian Lingkungan Hidup</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="program-box hover-card">
+                        <div class="program-number">10</div>
+                        <div class="program-text">Perencanaan Sehat</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
         <!-- SECTION: GAMBAR + DESKRIPSI -->
         <div class="row align-items-center mb-5">
 
