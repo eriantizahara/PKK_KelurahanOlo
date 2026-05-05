@@ -56,44 +56,40 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0 d-flex align-items-center">
-                <img src="<?= base_url() ?>/assets/img/logopemko.png" alt="Logo" class="me-2">
-                <img src="<?= base_url() ?>/assets/img/logo.png" alt="Logo">
+            <a href="" class="navbar-brand p-0">
+                <!-- <h1 class="text-primary"><i class="fas fa-hand-holding-water me-3"></i>Acuas</h1> -->
+                <a href="" class="navbar-brand p-0 d-flex align-items-center">
+                    <img src="<?= base_url() ?>/assets/img/logopemko.png" alt="Logo" class="me-2">
+                    <img src="<?= base_url() ?>/assets/img/logo.png" alt="Logo">
+                </a>
+                <!-- <h1 style="color: aquamarine;">PKK Kelurahan Olo</h1> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0" style="margin-right: 20px;">
-                    <a href="/" class="nav-item nav-link ">Beranda</a>
+                    <a href="/" class="nav-item nav-link active">Beranda</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
                         <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Monografi</a>
-                            <a href="feature.html" class="dropdown-item">Visi dan Misi</a>
-                            <a href="product.html" class="dropdown-item">Struktur Organisasi</a>
+                            <a href="<?= base_url('profile/umum') ?>" class="dropdown-item">Monografi</a>
+                            <a href="<?= base_url('profile/visi-misi') ?>" class="dropdown-item">Visi dan Misi</a>
+                            <a href="<?= base_url('profile/struktur') ?>" class="dropdown-item">Struktur Organisasi</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pelayanan</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Pelayanan Administrasi</a>
-                            <a href="feature.html" class="dropdown-item">Pelayanan Pengaduan</a>
-                            <a href="product.html" class="dropdown-item">Pelayanan Umum</a>
-                        </div>
-                    </div>
-                    <!-- <a href="#" class="nav-item nav-link">Pelayanan</a> -->
+                    <a href="#" class="nav-item nav-link">Pelayanan</a>
                     <!-- <a href="blog.html" class="nav-item nav-link">Berita</a> -->
-                    <div class="nav-item dropdown active">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">PKK</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PKK</a>
                         <div class="dropdown-menu m-0">
                             <a href="<?= base_url('pkk/profile') ?>" class="dropdown-item">Profile TP PKK</a>
                             <a href="<?= base_url('pkk/visi-misi') ?>" class="dropdown-item">Visi dan Misi</a>
                             <a href="<?= base_url('pkk/struktur-organisasi') ?>" class="dropdown-item">Struktur Organisasi</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 1</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 2</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 3</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 4</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA I</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA II</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA III</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA IV</a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Kontak</a>

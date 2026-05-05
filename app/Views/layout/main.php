@@ -55,7 +55,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0" style="margin-right: 20px;">
-                    <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                    <a href="/" class="nav-item nav-link active">Beranda</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
                         <div class="dropdown-menu m-0">
@@ -64,15 +64,7 @@
                             <a href="<?= base_url('profile/struktur') ?>" class="dropdown-item">Struktur Organisasi</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pelayanan</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Pelayanan Administrasi</a>
-                            <a href="feature.html" class="dropdown-item">Pelayanan Pengaduan</a>
-                            <a href="product.html" class="dropdown-item">Pelayanan Umum</a>
-                        </div>
-                    </div>
-                    <!-- <a href="#" class="nav-item nav-link">Pelayanan</a> -->
+                    <a href="#" class="nav-item nav-link">Pelayanan</a>
                     <!-- <a href="blog.html" class="nav-item nav-link">Berita</a> -->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PKK</a>
@@ -80,10 +72,10 @@
                             <a href="<?= base_url('pkk/profile') ?>" class="dropdown-item">Profile TP PKK</a>
                             <a href="<?= base_url('pkk/visi-misi') ?>" class="dropdown-item">Visi dan Misi</a>
                             <a href="<?= base_url('pkk/struktur-organisasi') ?>" class="dropdown-item">Struktur Organisasi</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 1</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 2</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 3</a>
-                            <a href="testimonial.html" class="dropdown-item">POKJA 4</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA I</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA II</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA III</a>
+                            <a href="testimonial.html" class="dropdown-item">POKJA IV</a>
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Kontak</a>
@@ -138,82 +130,8 @@
                     <span class="carousel-control-next-icon btn btn-primary fadeInRight animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fa fa-angle-right fa-3x"></i></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="<?= base_url() ?>/" class="nav-item nav-link active">Beranda</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="<?= base_url() ?>/profile/umum" class="dropdown-item">Monografi</a>
-                                <a href="<?= base_url() ?>/profile/visi-misi" class="dropdown-item">Visi dan Misi</a>
-                                <a href="<?= base_url() ?>/profile/struktur" class="dropdown-item">Struktur Organisasi</a>
-                            </div>
-                        </div>
-                        <a href="#" class="nav-item nav-link">Pelayanan</a>
-                        <!-- <a href="blog.html" class="nav-item nav-link">Berita</a> -->
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="feature.html" class="dropdown-item">POKJA 1</a>
-                                <a href="product.html" class="dropdown-item">POKJA 2</a>
-                                <a href="team.html" class="dropdown-item">POKJA 3</a>
-                                <a href="testimonial.html" class="dropdown-item">POKJA 4</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Kontak</a>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- Carousel Start -->
-            <div class="carousel-header">
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="<?= base_url() ?>/assets/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="carousel-caption-1">
-                                <div class="carousel-caption-1-content" style="max-width: 900px;">
-                                    <!-- <h4 class="text-white text-uppercase fw-bold mb-4 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;" style="letter-spacing: 3px;">Importance life</h4> -->
-                                    <h1 class="display-2 text-capitalize text-white mb-4 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1.3s" style="animation-delay: 1.3s;">Kelurahan Olo</h1>
-                                    <h2 class="display-2 text-capitalize text-white mb-4 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1.3s" style="animation-delay: 1.3s;">Kecamatan Padang Barat</h2>
-                                    <!-- <p class="mb-5 fs-5 text-white fadeInLeft animated" data-animation="fadeInLeft" data-delay="1.5s" style="animation-delay: 1.5s;">Kecamatan Padang Barat</p> -->
-                                    <div class="carousel-caption-1-content-btn fadeInLeft animated" data-animation="fadeInLeft" data-delay="1.7s" style="animation-delay: 1.7s;">
-                                        <!-- <a class="btn btn-primary rounded-pill flex-shrink-0 py-3 px-5 me-2" href="#">Order Now</a>
-                                        <a class="btn btn-secondary rounded-pill flex-shrink-0 py-3 px-5 ms-2" href="#">Free Estimate</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= base_url() ?>/assets/img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
-                            <div class="carousel-caption-2">
-                                <div class="carousel-caption-2-content" style="max-width: 900px;">
-                                    <!-- <h4 class="text-white text-uppercase fw-bold mb-4 fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;" style="letter-spacing: 3px;">Importance life</h4> -->
-                                    <h1 class="display-2 text-capitalize text-white mb-4 fadeInRight animated" data-animation="fadeInRight" data-delay="1.3s" style="animation-delay: 1.3s;">Pemberdayaan dan Kesejahteraan Keluarga (PKK)</h1>
-                                    <p class="mb-5 fs-5 text-white fadeInRight animated" data-animation="fadeInRight" data-delay="1.5s" style="animation-delay: 1.5s;">Kelurahan Olo Kecamatan Padang Barat</p>
-                                    <div class="carousel-caption-2-content-btn fadeInRight animated" data-animation="fadeInRight" data-delay="1.7s" style="animation-delay: 1.7s;">
-                                        <!-- <a class="btn btn-primary rounded-pill flex-shrink-0 py-3 px-5 me-2" href="#">Order Now</a>
-                                        <a class="btn btn-secondary rounded-pill flex-shrink-0 py-3 px-5 ms-2" href="#">Free Estimate</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon btn btn-primary fadeInLeft animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"> <i class="fa fa-angle-left fa-3x"></i></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                        <span class="carousel-control-next-icon btn btn-primary fadeInRight animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fa fa-angle-right fa-3x"></i></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
             </div>
+
         </div>
         <!-- Carousel End -->
     </div>
