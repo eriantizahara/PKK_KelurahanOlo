@@ -14,7 +14,7 @@ $routes->get('pkk/visi-misi', 'Pkk::visiMisi');
 $routes->get('pkk/struktur-organisasi', 'Pkk::strukturOrganisasi');
 
 
-$routes->get('/profile/umum', 'Profile::umum');
-$routes->get('/profile/visi-misi', 'Profile::visiMisi');
-$routes->get('/profile/struktur', 'Profile::struktur');
+$routes->get('profile/umum', 'Profile::umum');
+$routes->get('profile/visi-misi', 'Profile::visiMisi');
+$routes->get('profile/struktur', 'Profile::struktur');
 
