@@ -27,6 +27,64 @@
 
     <!-- Template Stylesheet -->
     <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .footer-modern {
+            background: linear-gradient(135deg, #020617, #0f172a);
+            color: #cbd5f5;
+        }
+
+        .footer-title {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .footer-text {
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .footer-icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.05);
+            transition: 0.3s;
+        }
+
+        .footer-icon:hover {
+            background: #0d6efd;
+            color: #fff;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(13, 110, 253, 0.4);
+        }
+
+        .footer-card {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            padding: 25px;
+            backdrop-filter: blur(8px);
+            transition: 0.3s;
+        }
+
+        .footer-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .footer-divider {
+            width: 60px;
+            height: 3px;
+            background: #0d6efd;
+            margin: 10px auto 20px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -64,7 +122,7 @@
                             <a href="<?= base_url('profile/struktur') ?>" class="dropdown-item">Struktur Organisasi</a>
                         </div>
                     </div>
-                    <a href="#" class="nav-item nav-link">Pelayanan</a>
+                    <a href="<?= base_url('layanan') ?>" class="nav-item nav-link">Pelayanan</a>
                     <!-- <a href="blog.html" class="nav-item nav-link">Berita</a> -->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PKK</a>
@@ -78,7 +136,7 @@
                             <a href="testimonial.html" class="dropdown-item">POKJA IV</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Kontak</a>
+                    <a href="<?= base_url('kontak') ?>" class="nav-item nav-link">Kontak</a>
                 </div>
             </div>
         </nav>
@@ -138,7 +196,7 @@
     <!-- Navbar & Hero End -->
 
     <!-- feature Start -->
-    <div class="container-fluid feature bg-light py-5">
+    <!-- <div class="container-fluid feature bg-light py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-uppercase text-primary">Our Feature</h4>
@@ -179,57 +237,57 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- feature End -->
 
 
     <!-- About Start -->
-    <div class="container-fluid about overflow-hidden py-5">
+    <div class="container-fluid about py-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                     <div class="about-img rounded h-100">
-                        <img src="<?= base_url() ?>/assets/img/about.jpg" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
-                        <div class="about-exp"><span>20 Years Experiance</span></div>
+                        <img src="<?= base_url() ?>/assets/img/peta.jpeg" class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="">
+                        <!-- <div class="about-exp"><span>20 Years Experiance</span></div> -->
                     </div>
                 </div>
                 <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="about-item">
-                        <h4 class="text-primary text-uppercase">About Us</h4>
-                        <h1 class="display-3 mb-3">We Deliver The Quality Water.</h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quidem quas totam nostrum! Maxime rerum voluptatem sed, facilis unde a aperiam nulla voluptatibus excepturi ipsam iusto consequuntur
+                        <!-- <h4 class="text-primary text-uppercase">Monografi</h4> -->
+                        <h1 class="display-3 mb-3">Kelurahan Olo</h1>
+                        <p class="mb-4">Kelurahan merupakan wilayah kerja Lurah sebagai bagian dari perangkat kecamatan yang berada di wilayah Kota/Kabupaten. Keberadaan Pemerintah Kelurahan sebagai salah satu organisasi publik dituntut selalu memberikan pelayanan yang sebaik-baiknya kepada masyarakat disamping melaksanakan tugas-tugas pemerintahan, pembangunan dan kemasyarakatan di wilayah Kelurahan.
                         </p>
-                        <div class="bg-light rounded p-4 mb-4">
+                        <!-- <div class="bg-light rounded p-4 mb-2">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="d-flex">
                                         <div class="pe-4">
-                                            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-tint text-white fa-2x"></i></div>
+                                            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-users text-white fa-2x"></i></div>
                                         </div>
                                         <div class="">
-                                            <a href="#" class="h4 d-inline-block mb-3">Satisfied Customer</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
+                                            <a href="#" class="h4 d-inline-block mb-3">Jumlah Penduduk</a>
+                                            <p class="mb-0">4.312 jiwa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="bg-light rounded p-4 mb-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="pe-4">
+                                            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-map text-white fa-2x"></i></div>
+                                        </div>
+                                        <div class="">
+                                            <a href="#" class="h4 d-inline-block mb-3">Geografis Wilayah</a>
+                                            <p class="mb-0">Ditinjau secara geografis wilayah Kelurahan Olo terletak anatara 100-22°10 bujur timur dan 0,21°10° lintang Selatan yang mempunyai ketinggian 1,5 M diatas permukaan laut</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="bg-light rounded p-4 mb-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="d-flex">
-                                        <div class="pe-4">
-                                            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;"><i class="fas fa-faucet text-white fa-2x"></i></div>
-                                        </div>
-                                        <div class="">
-                                            <a href="#" class="h4 d-inline-block mb-3">Standard Product</a>
-                                            <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#" class="btn btn-secondary rounded-pill py-3 px-5">Read More</a>
+                        <a href="<?= base_url('profile/umum') ?>" class="btn btn-secondary rounded-pill py-3 px-5">Read More</a>
                     </div>
                 </div>
             </div>
@@ -242,26 +300,14 @@
     <div class="container-fluid counter py-5">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="counter-item">
                         <div class="counter-item-icon mx-auto">
-                            <i class="fas fa-thumbs-up fa-3x text-white"></i>
+                            <i class="fas fa-users fa-3x text-white"></i>
                         </div>
-                        <h4 class="text-white my-4">Happy Clients</h4>
+                        <h4 class="text-white my-4">Rukun Warga (RW)</h4>
                         <div class="counter-counting">
-                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">456</span>
-                            <span class="h1 fw-bold text-white">+</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="counter-item">
-                        <div class="counter-item-icon mx-auto">
-                            <i class="fas fa-truck fa-3x text-white"></i>
-                        </div>
-                        <h4 class="text-white my-4">Transport</h4>
-                        <div class="counter-counting">
-                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">513</span>
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">6</span>
                             <span class="h1 fw-bold text-white">+</span>
                         </div>
                     </div>
@@ -271,21 +317,33 @@
                         <div class="counter-item-icon mx-auto">
                             <i class="fas fa-users fa-3x text-white"></i>
                         </div>
-                        <h4 class="text-white my-4">Employees</h4>
+                        <h4 class="text-white my-4">Rukun Tetangga (RT)</h4>
                         <div class="counter-counting">
-                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">53</span>
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">22</span>
                             <span class="h1 fw-bold text-white">+</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="counter-item">
                         <div class="counter-item-icon mx-auto">
-                            <i class="fas fa-heart fa-3x text-white"></i>
+                            <i class="fas fa-users fa-3x text-white"></i>
                         </div>
-                        <h4 class="text-white my-4">Years Experiance</h4>
+                        <h4 class="text-white my-4">Perangkat Kelurahan</h4>
                         <div class="counter-counting">
-                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">17</span>
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">4</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="counter-item">
+                        <div class="counter-item-icon mx-auto">
+                            <i class="fas fa-users fa-3x text-white"></i>
+                        </div>
+                        <h4 class="text-white my-4">Jumlah Penduduk</h4>
+                        <div class="counter-counting">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">4312</span>
                             <span class="h1 fw-bold text-white">+</span>
                         </div>
                     </div>
@@ -299,109 +357,100 @@
     <div class="container-fluid service bg-light overflow-hidden py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-primary">Our Service</h4>
-                <h1 class="display-3 text-capitalize mb-3">Protect Your Family with Best Water</h1>
+                <h4 class="text-uppercase text-primary">Uraian</h4>
+                <h1 class="display-3 text-capitalize mb-3">Kegiatan PKK</h1>
             </div>
+
             <div class="row gx-0 gy-4 align-items-center">
+
+                <!-- LEFT -->
                 <div class="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
+
+                    <!-- POKJA I -->
                     <div class="service-item rounded p-4 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="service-content text-end">
-                                        <a href="#" class="h4 d-inline-block mb-3">Residential Waters</a>
-                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                    </div>
-                                    <div class="ps-4">
-                                        <div class="service-btn"><i class="fas fa-hand-holding-water text-white fa-2x"></i></div>
-                                    </div>
+                        <div class="d-flex">
+                            <div class="service-content text-end">
+                                <a href="#" class="h4 d-inline-block mb-3">POKJA I</a>
+                                <p class="mb-0">
+                                    Berfokus pada kegiatan penghayatan dan pengamalan Pancasila serta gotong royong dalam kehidupan bermasyarakat.
+                                </p>
+                            </div>
+                            <div class="ps-4">
+                                <div class="service-btn">
+                                    <i class="fas fa-hands-helping text-white fa-2x"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- POKJA II -->
                     <div class="service-item rounded p-4 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="service-content text-end">
-                                        <a href="#" class="h4 d-inline-block mb-3">Commercial Waters</a>
-                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                    </div>
-                                    <div class="ps-4">
-                                        <div class="service-btn"><i class="fas fa-dumpster-fire text-white fa-2x"></i></div>
-                                    </div>
+                        <div class="d-flex">
+                            <div class="service-content text-end">
+                                <a href="#" class="h4 d-inline-block mb-3">POKJA II</a>
+                                <p class="mb-0">
+                                    Berfokus pada kegiatan pendidikan dan keterampilan serta pengembangan kehidupan berkoperasi.
+                                </p>
+                            </div>
+                            <div class="ps-4">
+                                <div class="service-btn">
+                                    <i class="fas fa-book-reader text-white fa-2x"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="service-item rounded p-4 mb-0">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="service-content text-end">
-                                        <a href="#" class="h4 d-inline-block mb-3">Filtration Plants</a>
-                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                    </div>
-                                    <div class="ps-4">
-                                        <div class="service-btn"><i class="fas fa-filter text-white fa-2x"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+
+                <!-- CENTER LOGO -->
+                <div class="col-lg-6 col-xl-4 wow fadeInUp text-center" data-wow-delay="0.3s">
                     <div class="bg-transparent">
-                        <img src="<?= base_url() ?>/assets/img/water.png" class="img-fluid w-100" alt="">
+                        <img src="<?= base_url() ?>/assets/img/logo.png"
+                            class="img-fluid"
+                            style="max-width: 220px;"
+                            alt="">
                     </div>
                 </div>
+
+                <!-- RIGHT -->
                 <div class="col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay="0.2s">
+
+                    <!-- POKJA III -->
                     <div class="service-item rounded p-4 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="pe-4">
-                                        <div class="service-btn"><i class="fas fa-assistive-listening-systems text-white fa-2x"></i></div>
-                                    </div>
-                                    <div class="service-content">
-                                        <a href="#" class="h4 d-inline-block mb-3">Water Softening</a>
-                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                    </div>
+                        <div class="d-flex">
+                            <div class="pe-4">
+                                <div class="service-btn">
+                                    <i class="fas fa-utensils text-white fa-2x"></i>
                                 </div>
+                            </div>
+                            <div class="service-content">
+                                <a href="#" class="h4 d-inline-block mb-3">POKJA III</a>
+                                <p class="mb-0">
+                                    Berfokus pada kegiatan pangan, sandang, serta perumahan dan tata laksana rumah tangga.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="service-item rounded p-4 mb-4">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="pe-4">
-                                        <div class="service-btn"><i class="fas fa-recycle text-white fa-2x"></i></div>
-                                    </div>
-                                    <div class="service-content">
-                                        <a href="#" class="h4 d-inline-block mb-3">Market Research</a>
-                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    <!-- POKJA IV -->
                     <div class="service-item rounded p-4 mb-0">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <div class="pe-4">
-                                        <div class="service-btn"><i class="fas fa-project-diagram text-white fa-2x"></i></div>
-                                    </div>
-                                    <div class="service-content">
-                                        <a href="#" class="h4 d-inline-block mb-3">Project Planning</a>
-                                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas provident maiores quisquam.</p>
-                                    </div>
+                        <div class="d-flex">
+                            <div class="pe-4">
+                                <div class="service-btn">
+                                    <i class="fas fa-heartbeat text-white fa-2x"></i>
                                 </div>
+                            </div>
+                            <div class="service-content">
+                                <a href="#" class="h4 d-inline-block mb-3">POKJA IV</a>
+                                <p class="mb-0">
+                                    Berfokus pada kegiatan kesehatan, kelestarian lingkungan hidup, dan perencanaan kesehatan keluarga.
+                                </p>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
             </div>
         </div>
     </div>
@@ -409,7 +458,7 @@
 
 
     <!-- Products Start -->
-    <div class="container-fluid product py-5">
+    <!-- <div class="container-fluid product py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-uppercase text-primary">Our Products</h4>
@@ -451,12 +500,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Products End -->
 
 
     <!-- Blog Start -->
-    <div class="container-fluid blog pb-5">
+    <!-- <div class="container-fluid blog pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-uppercase text-primary">Our Blog</h4>
@@ -504,7 +553,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Blog End -->
 
 
@@ -513,7 +562,7 @@
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-uppercase text-primary">Our Team</h4>
-                <h1 class="display-3 text-capitalize mb-3">What is Really seo & How Can I Use It?</h1>
+                <h1 class="display-3 text-capitalize mb-3">Perangkat Kelurahan</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
@@ -532,8 +581,8 @@
                                 </div>
                             </div>
                             <div class="bg-light rounded-bottom text-center py-4">
-                                <h4 class="mb-3">Hard Branots</h4>
-                                <p class="mb-0">CEO & Founder</p>
+                                <h4 class="mb-3">LURAH</h4>
+                                <p class="mb-0">AIDIL PUTRA, S.AP, M.M</p>
                             </div>
                         </div>
                     </div>
@@ -542,7 +591,7 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/team-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/profile5.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -554,8 +603,8 @@
                                 </div>
                             </div>
                             <div class="bg-light rounded-bottom text-center py-4">
-                                <h4 class="mb-3">Hard Branots</h4>
-                                <p class="mb-0">CEO & Founder</p>
+                                <h4 class="mb-3">Pengadministrasi Umum</h4>
+                                <p class="mb-0">PAPATRI WAHYUNINGSIH</p>
                             </div>
                         </div>
                     </div>
@@ -564,7 +613,7 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/team-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/profile5.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -576,8 +625,8 @@
                                 </div>
                             </div>
                             <div class="bg-light rounded-bottom text-center py-4">
-                                <h4 class="mb-3">Hard Branots</h4>
-                                <p class="mb-0">CEO & Founder</p>
+                                <h4 class="mb-3">KASI PM dan KESOS</h4>
+                                <p class="mb-0">FIKA ROSIANA A,A.Md</p>
                             </div>
                         </div>
                     </div>
@@ -586,7 +635,7 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/team-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/profile5.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -598,8 +647,8 @@
                                 </div>
                             </div>
                             <div class="bg-light rounded-bottom text-center py-4">
-                                <h4 class="mb-3">Hard Branots</h4>
-                                <p class="mb-0">CEO & Founder</p>
+                                <h4 class="mb-3">KASI TRANTIB & PB</h4>
+                                <p class="mb-0">DASRIL,SE</p>
                             </div>
                         </div>
                     </div>
@@ -610,7 +659,7 @@
     <!-- Team End -->
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
+    <!-- <div class="container-fluid testimonial pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="text-uppercase text-primary">Testimonials</h4>
@@ -691,101 +740,88 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-        <div class="container py-5">
-            <div class="row g-5 mb-5 align-items-center">
-                <div class="col-lg-7">
-                    <div class="position-relative mx-auto">
-                        <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Email address to Subscribe">
-                        <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+    <div class="container-fluid footer-modern py-5">
+        <div class="container text-center py-5">
+
+            <!-- SOCIAL -->
+            <div class="mb-5">
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#" class="footer-icon text-white">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/olo.padangbarat/" target="_blank" class="footer-icon text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <div class="footer-item">
-                            <h3 class="text-white mb-4"><i class="fas fa-hand-holding-water text-primary me-3"></i>Acuas</h3>
-                            <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
-                        </div>
-                        <div class="position-relative">
-                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                            <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                        </div>
+
+            <!-- CONTENT -->
+            <div class="row justify-content-center g-4">
+
+                <!-- JAM OPERASIONAL -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-card text-center">
+                        <h5 class="footer-title">Jam Operasional</h5>
+                        <div class="footer-divider"></div>
+
+                        <p class="footer-text mb-2">
+                            <strong>Senin - Kamis</strong><br>
+                            07.30 - 16.00 WIB
+                        </p>
+
+                        <p class="footer-text mb-2">
+                            <strong>Jumat</strong><br>
+                            07.30 - 16.30 WIB
+                        </p>
+
+                        <p class="footer-text">
+                            <strong>Sabtu - Minggu</strong><br>
+                            Libur
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">About Us</h4>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Why Choose Us</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Free Water Bottles</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Water Dispensers</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Bottled Water Coolers</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
-                        <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+
+                <!-- KONTAK -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-card text-center">
+                        <h5 class="footer-title">Informasi Kontak</h5>
+                        <div class="footer-divider"></div>
+
+                        <p class="footer-text mb-2">
+                            <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                            Jl. Pemuda No.28B, Olo, Padang Barat
+                        </p>
+
+                        <p class="footer-text mb-2">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            info@example.com
+                        </p>
+
+                        <p class="footer-text mb-0">
+                            <i class="fas fa-phone me-2 text-primary"></i>
+                            +62 812-3456-7890
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">Business Hours</h4>
-                        <div class="mb-3">
-                            <h6 class="text-muted mb-0">Mon - Friday:</h6>
-                            <p class="text-white mb-0">09.00 am to 07.00 pm</p>
-                        </div>
-                        <div class="mb-3">
-                            <h6 class="text-muted mb-0">Saturday:</h6>
-                            <p class="text-white mb-0">10.00 am to 05.00 pm</p>
-                        </div>
-                        <div class="mb-3">
-                            <h6 class="text-muted mb-0">Vacation:</h6>
-                            <p class="text-white mb-0">All Sunday is our vacation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="text-white mb-4">Contact Info</h4>
-                        <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                        <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                        <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                        <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                    </div>
-                </div>
+
             </div>
+
+        </div>
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div style="background:#020617;">
+        <div class="container text-center py-3">
+            <p class="mb-0 text-secondary" style="font-size:14px;">
+                © 2026 PKK Kelurahan Olo • All Rights Reserved
+            </p>
         </div>
     </div>
     <!-- Footer End -->
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-md-0">
-                    <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                </div>
-                <div class="col-md-6 text-center text-md-end text-body">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Copyright End -->
 
 
     <!-- Back to Top -->
