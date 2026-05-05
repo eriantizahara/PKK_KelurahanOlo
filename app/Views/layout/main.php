@@ -64,7 +64,7 @@
                             <a href="<?= base_url('profile/struktur') ?>" class="dropdown-item">Struktur Organisasi</a>
                         </div>
                     </div>
-                    <a href="#" class="nav-item nav-link">Pelayanan</a>
+                    <a href="<?= base_url('layanan') ?>" class="nav-item nav-link">Pelayanan</a>
                     <!-- <a href="blog.html" class="nav-item nav-link">Berita</a> -->
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PKK</a>
@@ -78,7 +78,7 @@
                             <a href="testimonial.html" class="dropdown-item">POKJA IV</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Kontak</a>
+                    <a href="<?= base_url('kontak') ?>" class="nav-item nav-link">Kontak</a>
                 </div>
             </div>
         </nav>
