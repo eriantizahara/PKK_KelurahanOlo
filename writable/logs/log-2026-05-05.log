@@ -1,0 +1,13 @@
+CRITICAL - 2026-05-05 15:25:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelayanan_kelurahan/layanan.php"
+[Method: GET, Route: layanan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelayanan_kelurahan/layanan.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('pelayanan_kelurahan/layanan', [], true)
+ 3 APPPATH\Controllers\Layout.php(13): view('pelayanan_kelurahan/layanan')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Layout->layanan()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Layout))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\ZaraAyunda\\SEMESTER8\\MAGANG\\Kel.Olo\\program\\PKK_KelurahanOlo\\public\\index.php')
