@@ -8,6 +8,8 @@ use CodeIgniter\Router\RouteCollection;
 // $routes->get('/', 'Home::index');
 
 $routes->get('/', 'Layout::index');
+$routes->get('layanan', 'Layout::layanan');
+$routes->get('kontak', 'Layout::kontak');
 
 $routes->get('pkk/profile', 'Pkk::profile');
 $routes->get('pkk/visi-misi', 'Pkk::visiMisi');
