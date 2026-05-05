@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>POKJA II</title>
+    <title>PKK - Kelurahan Olo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -234,14 +234,19 @@
         </nav>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/14.png') center center/cover no-repeat;">
+
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kelompok Kerja (POKJA)</h4>
+
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                    <li class="breadcrumb-item active text-primary">POKJA I</li>
+                    <li class="breadcrumb-item active text-primary">POKJA II</li>
                 </ol>
             </div>
+
         </div>
         <!-- Header End -->
     </div>
@@ -266,17 +271,17 @@
         <!-- DESKRIPSI -->
         <div class="desc-box hover-card">
             <p style="text-align: justify; line-height:1.9;">
-                POKJA II TP PKK memiliki fokus pada pelaksanaan program Pendidikan dan Keterampilan serta
+                POKJA II berfokus pada pelaksanaan program Pendidikan dan Keterampilan serta
                 Pengembangan Kehidupan Berkoperasi. Program ini bertujuan untuk meningkatkan kualitas sumber daya manusia,
                 mendorong kemandirian ekonomi keluarga melalui pelatihan keterampilan, pengelolaan usaha,
                 serta penguatan budaya berkoperasi dalam kehidupan masyarakat.
             </p>
         </div>
 
-        <!-- PROGRAM UTAMA -->
+        <!-- PROGRAM Pendidikan dan Keterampilan -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-star"></i> Program Utama
+                <i class="fas fa-star"></i> Program Pendidikan dan Keterampilan
             </div>
             <div class="section-body">
                 <ul>
@@ -296,7 +301,7 @@
         <!-- INOVASI POKJA II -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-lightbulb"></i> Inovasi POKJA II
+                <i class="fas fa-lightbulb"></i> Inovasi Program Pendidikan dan Keterampilan
             </div>
             <div class="section-body">
                 <ul>
@@ -310,16 +315,6 @@
                     <li>Pelatihan Memasak Roti Kering (PENARI)</li>
                     <li>Pembuatan Sarang Ketupat (BUAT SEPAT)</li>
                     <li>Buat Sabun Cuci Piring (BU SARI)</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section-box hover-card">
-            <div class="section-header">
-                <i class="fas fa-graduation-cap"></i> Lanjutan Inovasi POKJA II
-            </div>
-            <div class="section-body">
-                <ul>
                     <li>Pelatihan Parenting Orang Tua (PINTU)</li>
                     <li>PKK Simulasi Gempa (PIPA BASAH)</li>
                     <li>Pelatihan Entrepreneur (TUR)</li>
@@ -335,7 +330,7 @@
 
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-plus-circle"></i> Lanjutan Inovasi POKJA II
+                <i class="fas fa-plus-circle"></i> Inovasi Program Pengembangan Kehidupan Berkoperasi
             </div>
             <div class="section-body">
                 <ul>
@@ -359,28 +354,28 @@
             <div class="gallery-grid">
 
                 <div class="gallery-item big">
-                    <img src="<?= base_url() ?>/assets/img/2.jpg">
+                    <img src="<?= base_url() ?>/assets/img/2/2.png">
                     <!-- <div class="gallery-overlay">Kegiatan Sosial</div> -->
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/4.jpg">
+                    <img src="<?= base_url() ?>/assets/img/2/4.png">
                 </div>
 
                 <div class="gallery-item tall">
-                    <img src="<?= base_url() ?>/assets/img/3.png">
+                    <img src="<?= base_url() ?>/assets/img/2/6.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/5.png">
+                    <img src="<?= base_url() ?>/assets/img/2/5.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/6.jpg">
+                    <img src="<?= base_url() ?>/assets/img/2/3.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/1.png">
+                    <img src="<?= base_url() ?>/assets/img/2/1.png">
                 </div>
 
             </div>

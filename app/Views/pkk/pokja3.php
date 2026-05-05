@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>POKJA III</title>
+    <title>PKK - Kelurahan Olo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -234,14 +234,19 @@
         </nav>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/14.png') center center/cover no-repeat;">
+
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kelompok Kerja (POKJA)</h4>
+
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                    <li class="breadcrumb-item active text-primary">POKJA I</li>
+                    <li class="breadcrumb-item active text-primary">POKJA III</li>
                 </ol>
             </div>
+
         </div>
         <!-- Header End -->
     </div>
@@ -263,7 +268,7 @@
         <!-- DESKRIPSI -->
         <div class="desc-box hover-card">
             <p style="text-align: justify; line-height:1.9;">
-                POKJA III TP PKK berfokus pada pelaksanaan program Pangan, Sandang, serta Perumahan dan Tata Laksana Rumah Tangga.
+                POKJA III berfokus pada pelaksanaan program Pangan, Sandang, serta Perumahan dan Tata Laksana Rumah Tangga.
                 Program ini bertujuan untuk meningkatkan ketahanan pangan keluarga, mendorong kemandirian dalam pemenuhan kebutuhan sandang,
                 serta mewujudkan rumah tangga yang sehat, layak huni, dan tertata dengan baik.
                 Selain itu, POKJA III juga mengedepankan pemanfaatan sumber daya lokal secara optimal dalam mendukung kesejahteraan keluarga.
@@ -328,28 +333,28 @@
             <div class="gallery-grid">
 
                 <div class="gallery-item big">
-                    <img src="<?= base_url() ?>/assets/img/2.jpg">
+                    <img src="<?= base_url() ?>/assets/img/3/1.png">
                     <!-- <div class="gallery-overlay">Kegiatan Sosial</div> -->
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/4.jpg">
+                    <img src="<?= base_url() ?>/assets/img/3/2.png">
                 </div>
 
                 <div class="gallery-item tall">
-                    <img src="<?= base_url() ?>/assets/img/3.png">
+                    <img src="<?= base_url() ?>/assets/img/3/4.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/5.png">
+                    <img src="<?= base_url() ?>/assets/img/3/5.png">
+                </div>
+
+                <div class="gallery-item"> 
+                    <img src="<?= base_url() ?>/assets/img/3/6.jpg">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/6.jpg">
-                </div>
-
-                <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/1.png">
+                    <img src="<?= base_url() ?>/assets/img/3/3.png">
                 </div>
 
             </div>

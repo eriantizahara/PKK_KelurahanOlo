@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>POKJA I</title>
+    <title>PKK - Kelurahan Olo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -234,14 +234,19 @@
         </nav>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/14.png') center center/cover no-repeat;">
+
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kelompok Kerja (POKJA)</h4>
+
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
                     <li class="breadcrumb-item active text-primary">POKJA I</li>
                 </ol>
             </div>
+
         </div>
         <!-- Header End -->
     </div>
@@ -262,7 +267,7 @@
         <!-- DESKRIPSI -->
         <div class="desc-box hover-card">
             <p style="text-align: justify; line-height:1.9;">
-                POKJA I TP PKK memiliki fokus pada pelaksanaan program Penghayatan dan Pengamalan Pancasila serta Gotong Royong.
+                POKJA I berfokus pada pelaksanaan program Penghayatan dan Pengamalan Pancasila serta Gotong Royong.
                 Program ini bertujuan untuk membentuk karakter keluarga yang berlandaskan nilai-nilai Pancasila,
                 meningkatkan kesadaran kehidupan bermasyarakat, berbangsa, dan bernegara, serta memperkuat semangat kebersamaan
                 dan kepedulian sosial melalui budaya gotong royong di lingkungan masyarakat.
@@ -272,7 +277,7 @@
         <!-- PROGRAM UTAMA -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-star"></i> Program Utama
+                <i class="fas fa-star"></i> Program Penghayatan dan Pengamalan Pancasila
             </div>
             <div class="section-body">
                 <ul>
@@ -281,17 +286,6 @@
                     <li>Calon Pengantin (CATIN)</li>
                     <li>Lansia Siap Produktif (LANSIAP)</li>
                     <li>Judi, Pinjol Teratasi (CEPAK)</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- PROGRAM LANJUTAN -->
-        <div class="section-box hover-card">
-            <div class="section-header">
-                <i class="fas fa-layer-group"></i> Program Lanjutan
-            </div>
-            <div class="section-body">
-                <ul>
                     <li>Keluarga Indonesia Sehat Anti Narkoba (KRISAN)</li>
                     <li>Keluarga Indonesia Lindungi Anak terhadap Kekerasan Seksual (KILAS)</li>
                     <li>Keluarga Indonesia Anti Trafficking (KIAT)</li>
@@ -301,10 +295,11 @@
             </div>
         </div>
 
+
         <!-- INOVASI -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-lightbulb"></i> Inovasi POKJA I
+                <i class="fas fa-lightbulb"></i> Inovasi Program Penghayatan dan Pengamalan Pancasila
             </div>
             <div class="section-body">
                 <ul>
@@ -333,7 +328,7 @@
         <!-- KEGIATAN LINGKUNGAN -->
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-leaf"></i> Inovasi Pokja I Kegiatan Gontong Royong
+                <i class="fas fa-leaf"></i> Inovasi Program Gontong Royong
             </div>
             <div class="section-body">
                 <ul>
@@ -360,28 +355,28 @@
             <div class="gallery-grid">
 
                 <div class="gallery-item big">
-                    <img src="<?= base_url() ?>/assets/img/2.jpg">
+                    <img src="<?= base_url() ?>/assets/img/1/2.jpg">
                     <!-- <div class="gallery-overlay">Kegiatan Sosial</div> -->
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/4.jpg">
+                    <img src="<?= base_url() ?>/assets/img/1/4.jpg">
                 </div>
 
                 <div class="gallery-item tall">
-                    <img src="<?= base_url() ?>/assets/img/3.png">
+                    <img src="<?= base_url() ?>/assets/img/1/3.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/5.png">
+                    <img src="<?= base_url() ?>/assets/img/1/5.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/6.jpg">
+                    <img src="<?= base_url() ?>/assets/img/1/6.jpg">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/1.png">
+                    <img src="<?= base_url() ?>/assets/img/1/1.png">
                 </div>
 
             </div>

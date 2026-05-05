@@ -96,10 +96,14 @@
         </nav>
 
         <!-- HEADER -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="container text-center py-5">
-                <h2 class="text-white fw-bold">Kontak Kelurahan Olo</h2>
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/15.png') center center/cover no-repeat;">
+
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kontak Kelurahan Olo</h4>
             </div>
+
         </div>
     </div>
 
@@ -125,13 +129,14 @@
 
                             <div class="col-md-6">
                                 <div class="d-flex">
-                                    <div class="icon-box bg-primary text-white me-3">
-                                        <i class="fas fa-map-marker-alt"></i>
+                                    <div class="icon-box bg-primary text-white me-3 d-flex justify-content-center align-items-center"
+                                        style="width:65px; height:55px; border-radius:10px;">
+                                        <i class="fas fa-map-marker-alt" style="font-size:22px;"></i>
                                     </div>
                                     <div>
                                         <h6 class="fw-bold">Alamat</h6>
                                         <small class="text-muted">
-                                            Kelurahan Olo, Padang Barat, Kota Padang
+                                            Jl. Pemuda No.28B, Olo, Padang Barat, Kota Padang
                                         </small>
                                     </div>
                                 </div>
@@ -139,8 +144,9 @@
 
                             <div class="col-md-6">
                                 <div class="d-flex">
-                                    <div class="icon-box bg-warning text-white me-3">
-                                        <i class="fas fa-clock"></i>
+                                    <div class="icon-box bg-warning text-white me-3 d-flex justify-content-center align-items-center"
+                                        style="width:45; height:55px; border-radius:10px;">
+                                        <i class="fas fa-clock" style="font-size:22px;"></i>
                                     </div>
                                     <div>
                                         <h6 class="fw-bold">Jam Layanan</h6>
@@ -154,8 +160,9 @@
 
                             <div class="col-md-6">
                                 <div class="d-flex">
-                                    <div class="icon-box bg-danger text-white me-3">
-                                        <i class="fas fa-envelope"></i>
+                                    <div class="icon-box bg-danger text-white me-3 d-flex justify-content-center align-items-center"
+                                        style="width:50px; height:55px; border-radius:10px;">
+                                        <i class="fas fa-envelope" style="font-size:22px;"></i>
                                     </div>
                                     <div>
                                         <h6 class="fw-bold">Email</h6>
@@ -166,8 +173,9 @@
 
                             <div class="col-md-6">
                                 <div class="d-flex">
-                                    <div class="icon-box bg-success text-white me-3">
-                                        <i class="fab fa-whatsapp"></i>
+                                    <div class="icon-box bg-success text-white me-3 d-flex justify-content-center align-items-center"
+                                        style="width:50px; height:55px; border-radius:10px;">
+                                        <i class="fab fa-whatsapp" style="font-size:22px;"></i>
                                     </div>
                                     <div>
                                         <h6 class="fw-bold">WhatsApp</h6>
@@ -180,8 +188,9 @@
 
                             <div class="col-md-6">
                                 <div class="d-flex">
-                                    <div class="icon-box bg-dark text-white me-3">
-                                        <i class="fab fa-instagram"></i>
+                                    <div class="icon-box bg-dark text-white me-3 d-flex justify-content-center align-items-center"
+                                        style="width:50px; height:55px; border-radius:10px;">
+                                        <i class="fab fa-instagram" style="font-size:22px;"></i>
                                     </div>
                                     <div>
                                         <h6 class="fw-bold">Instagram</h6>
@@ -227,7 +236,7 @@
 
     <!-- FOOTER -->
     <div class="container-fluid bg-dark text-white text-center py-3">
-        <p class="mb-0">© 2026 PKK Kelurahan Olo</p>
+        <p class="mb-0">© 2026 Kelurahan Olo</p>
     </div>
 
 
