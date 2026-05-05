@@ -69,10 +69,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0" style="margin-right: 20px;">
-
-                    <a href="/" class="nav-item nav-link">Beranda</a>
                     <a href="/" class="nav-item nav-link ">Beranda</a>
-
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
                         <div class="dropdown-menu m-0">

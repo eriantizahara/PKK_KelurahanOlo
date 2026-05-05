@@ -8,4 +8,12 @@ class Layout extends BaseController
     {
         return view('layout/main');
     }
+    public function layanan()
+    {
+        return view('pelayanan_kelurahan/pelayanan');
+    }
+    public function kontak()
+    {
+        return view('layout/kontak');
+    }
 }
