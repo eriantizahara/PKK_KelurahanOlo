@@ -30,7 +30,7 @@
 
     <style>
         .visi-box {
-            background: linear-gradient(135deg, #0d6efd, #3b82f6);
+            background: linear-gradient(135deg, #92dbf5, #75c9e7);
             color: white;
             padding: 50px;
             border-radius: 25px;
@@ -61,7 +61,7 @@
             width: 50px;
             height: 50px;
             border-radius: 12px;
-            background: #0d6efd;
+            background: #92dbf5;
             color: white;
             display: flex;
             align-items: center;
@@ -128,15 +128,19 @@
         </nav>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/15.png') center center/cover no-repeat;">
+
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Profile</h4>
+
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="<?= base_url() ?>/">Beranda</a></li>
-                    <!-- <li class="breadcrumb-item"><a href="#">Pages</a></li> -->
+                    <li class="breadcrumb-item"><a href="/">Beranda</a></li>
                     <li class="breadcrumb-item active text-primary">Visi dan Misi</li>
                 </ol>
             </div>
+
         </div>
         <!-- Header End -->
     </div>
@@ -243,7 +247,7 @@
     <!-- Footer Start -->
     <!-- ✅ FOOTER -->
     <div class="container-fluid bg-dark text-white text-center p-3">
-        <p class="mb-0">© 2026 PKK Kelurahan Olo</p>
+        <p class="mb-0">© 2026 Kelurahan Olo</p>
     </div>
     <!-- Footer End -->
 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>POKJA IV</title>
+    <title>PKK - Kelurahan Olo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -234,14 +234,19 @@
         </nav>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/14.png') center center/cover no-repeat;">
+
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kelompok Kerja (POKJA)</h4>
+
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
-                    <li class="breadcrumb-item active text-primary">POKJA I</li>
+                    <li class="breadcrumb-item active text-primary">POKJA IV</li>
                 </ol>
             </div>
+
         </div>
         <!-- Header End -->
     </div>
@@ -263,7 +268,7 @@
         <!-- DESKRIPSI -->
         <div class="desc-box hover-card">
             <p style="text-align: justify; line-height:1.9;">
-                POKJA IV TP PKK berfokus pada pelaksanaan program Kesehatan, Kelestarian Lingkungan Hidup, dan Perencanaan Sehat.
+                POKJA IV berfokus pada pelaksanaan program Kesehatan, Kelestarian Lingkungan Hidup, dan Perencanaan Sehat.
                 Program ini bertujuan untuk meningkatkan derajat kesehatan masyarakat, khususnya keluarga,
                 melalui penerapan perilaku hidup bersih dan sehat (PHBS), peningkatan gizi, serta
                 pencegahan berbagai penyakit. Selain itu, POKJA IV juga mendorong kesadaran masyarakat
@@ -272,13 +277,36 @@
             </p>
         </div>
 
+
+        <div class="section-box hover-card">
+            <div class="section-header">
+                <i class="fas fa-lightbulb"></i> Program Kesehatan
+            </div>
+            <div class="section-body">
+                <ul>
+                    <li>Khitanan Massal & Pengobatan Gratis (KITA SOBAT)</li>
+                    <li>Posyandu Balita & Lansia (PANDU LILA)</li>
+                    <li>Permainan Edukasi Posyandu (PEKAN YANDU)</li>
+                    <li>Kelas Ibu Hamil (KAMI)</li>
+                    <li>Senam Cuci Tangan (SENANG)</li>
+                    <li>Sosialisasi Pangan Lokal Untuk Anak Stunting Dan Hamil (SIPANGKA)</li>
+                    <li>Demo Masak Bergizi (DEKAN GIZI)</li>
+                    <li>Penyuluhan Kesehatan Remaja (PEKAN REMAJA)</li>
+                    <li>Sosialisasi Napza (SOZA)</li>
+                    <li>Pmt Anak Stunting (PANTUN)</li>
+                    <li>Isbanda (Istri Bank Pembangunan Daerah) Peduli Pmt Olo (ISBANDA PEDULI)</li>
+                    <li>POSYANDU GABUNGAN DI Mc DONAL (Pos Ganal)</li>
+                </ul>
+            </div>
+        </div>
+
         <div class="section-box hover-card">
             <div class="section-header">
                 <i class="fas fa-heartbeat"></i> Program Kelestarian Lingkungan Hidup
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Penyuluhan Dan Pendampingan Persalinan Ditolong Tenaga  Kesehatan</li>
+                    <li>Penyuluhan Dan Pendampingan Persalinan Ditolong Tenaga Kesehatan</li>
                     <li>Penyuluhan Dan Pendampingan Pemberian Asi Eksklusif</li>
                     <li>Menimbang Bayi Dan Balita Secara Berkala</li>
                     <li>Penyuluhan Mengonsumsi Buah Dan Sayur</li>
@@ -294,56 +322,19 @@
 
         <div class="section-box hover-card">
             <div class="section-header">
-                <i class="fas fa-lightbulb"></i> Program Kesehatan
-            </div>
-            <div class="section-body">
-                <ul>
-                    <li>Khitanan Massal & Pengobatan Gratis (KITA SOBAT)</li>
-                    <li>Posyandu Balita & Lansia (PANDU LILA)</li>
-                    <li>Permainan Edukasi Posyandu (PEKAN YANDU)</li>
-                    <li>Kelas Ibu Hamil (KAMI)</li>
-                    <li>Senam Cuci Tangan (SENANG)</li>
-                    <li>Sosialisasi  Pangan Lokal Untuk Anak Stunting Dan Hamil (SIPANGKA)</li>
-                    <li>Demo Masak Bergizi (DEKAN GIZI)</li>
-                    <li>Penyuluhan Kesehatan Remaja (PEKAN REMAJA)</li>
-                    <li>Sosialisasi Napza (SOZA)</li>
-                    <li>Pmt Anak Stunting (PANTUN)</li>  
-                    <li>Isbanda (Istri Bank Pembangunan Daerah) Peduli Pmt Olo (ISBANDA PEDULI)</li>
-                    <li>POSYANDU GABUNGAN DI Mc DONAL (Pos Ganal)</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section-box hover-card">
-            <div class="section-header">
                 <i class="fas fa-users"></i> Program Perencanaan Sehat
             </div>
             <div class="section-body">
                 <ul>
-                    <li>Sosialisasi NAPZA (SOZA)</li>
-                    <li>PMT Anak Stunting (PANTUN)</li>
-                    <li>ISBANDA Peduli PMT</li>
-                    <li>Pangan Lokal untuk Stunting (SIPANGKA)</li>
-                    <li>Posyandu Gabungan (POS GANAL)</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section-box hover-card">
-            <div class="section-header">
-                <i class="fas fa-notes-medical"></i> Program Perencanaan Sehat
-            </div>
-            <div class="section-body">
-                <ul>
-                    <li>Pojok Baca Kesehatan (POKAT)</li>
-                    <li>GIAT Stunting Rocky</li>
-                    <li>OTA untuk Ibu Hamil (OTA DI SINI)</li>
-                    <li>Parenting Stunting (PENTING)</li>
+                    <li>Bimtek Pengisian Buku Sip Bersertifikat (BISIK)</li>
+                    <li>Bimtek Sibima (Sistem Informasi Bantuan Manajemen Anak Sehat) Bersertifikat (BISIBIMA)</li>
+                    <li>Ota Siti Nurbaya Food Untuk Ibu Hamil Kek Berisiko Anemia (OTA DI SINI)</li>
+                    <li>Genting Ota Untuk Anak Stunting Dari Rocky Hotel (GIAT STUNTING ROCKY)</li>
+                    <li>Tuako Alam Peduli Stunting Olo (TUAKO ADIL)</li>
+                    <li>Penyuluhan Pencegahan Stunting Balita (PENTING BALITA)</li>
                     <li>Cegah Kanker Serviks (CARI)</li>
-                    <li>Penyuluhan Stunting Balita (PENTING BALITA)</li>
-                    <li>Bimtek SIP (BISIK)</li>
-                    <li>Bimtek SIBIMA (BISIBIMA)</li>
-                    <li>Tuako Alam Peduli Stunting (TUAKO ADIL)</li>
+                    <li>Parenting Stunting (PENTING)</li>
+                    <li>Pojok Baca Kesehatan (POKAT)</li>
                     <li>Lansia Berdaya (LASER)</li>
                 </ul>
             </div>
@@ -360,28 +351,28 @@
             <div class="gallery-grid">
 
                 <div class="gallery-item big">
-                    <img src="<?= base_url() ?>/assets/img/2.jpg">
+                    <img src="<?= base_url() ?>/assets/img/4/5.jpg">
                     <!-- <div class="gallery-overlay">Kegiatan Sosial</div> -->
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/4.jpg">
+                    <img src="<?= base_url() ?>/assets/img/4/2.png">
                 </div>
 
                 <div class="gallery-item tall">
-                    <img src="<?= base_url() ?>/assets/img/3.png">
+                    <img src="<?= base_url() ?>/assets/img/4/3.jpg">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/5.png">
+                    <img src="<?= base_url() ?>/assets/img/4/4.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/6.jpg">
+                    <img src="<?= base_url() ?>/assets/img/4/1.png">
                 </div>
 
                 <div class="gallery-item">
-                    <img src="<?= base_url() ?>/assets/img/1.png">
+                    <img src="<?= base_url() ?>/assets/img/4/6.png">
                 </div>
 
             </div>

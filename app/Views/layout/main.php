@@ -84,6 +84,76 @@
             margin: 10px auto 20px;
             border-radius: 10px;
         }
+
+        .team-img img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        /* footer */
+        .footer-modern {
+            background: #0d1b2a;
+            color: #ffffff;
+        }
+
+        .footer-icon {
+            width: 45px;
+            height: 45px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: #fff;
+            transition: 0.3s ease;
+            font-size: 16px;
+        }
+
+        .footer-icon:hover {
+            background: #0d6efd;
+            transform: translateY(-3px);
+        }
+
+        .footer-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+            height: 100%;
+        }
+
+        .footer-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .footer-divider {
+            width: 50px;
+            height: 3px;
+            background: #0d6efd;
+            margin: 0 auto 20px auto;
+            border-radius: 10px;
+        }
+
+        .footer-text {
+            font-size: 14px;
+            line-height: 1.8;
+            margin-bottom: 12px;
+            color: #dcdcdc;
+        }
+
+        /* ukuran foto side bar */
+        .carousel-item img {
+            width: 100%;
+            height: 750px;
+            /* atur tinggi agar semua sama */
+            object-fit: cover;
+            /* biar tidak gepeng */
+            object-position: center;
+        }
     </style>
 </head>
 
@@ -151,7 +221,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="<?= base_url() ?>/assets/img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                        <img src="<?= base_url() ?>/assets/img/15.png" class="img-fluid w-100" alt="Image">
                         <div class="carousel-caption-1">
                             <div class="carousel-caption-1-content" style="max-width: 900px;">
                                 <!-- <h4 class="text-white text-uppercase fw-bold mb-4 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;" style="letter-spacing: 3px;">Importance life</h4> -->
@@ -166,7 +236,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= base_url() ?>/assets/img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                        <img src="<?= base_url() ?>/assets/img/14.png" class="img-fluid w-100" alt="Image">
                         <div class="carousel-caption-2">
                             <div class="carousel-caption-2-content" style="max-width: 900px;">
                                 <!-- <h4 class="text-white text-uppercase fw-bold mb-4 fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;" style="letter-spacing: 3px;">Importance life</h4> -->
@@ -357,7 +427,7 @@
     <div class="container-fluid service bg-light overflow-hidden py-5">
         <div class="container py-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-primary">Uraian</h4>
+                <h1 class="text-uppercase text-primary">Uraian</h1>
                 <h1 class="display-3 text-capitalize mb-3">Kegiatan PKK</h1>
             </div>
 
@@ -561,15 +631,15 @@
     <div class="container-fluid team pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-primary">Our Team</h4>
-                <h1 class="display-3 text-capitalize mb-3">Perangkat Kelurahan</h1>
+                <!-- <h4 class="text-uppercase text-primary">Our Team</h4> -->
+                <h1 class="display-3 text-capitalize mb-3 mt-3">Perangkat Kelurahan</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/team-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/pak lurah.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -591,7 +661,7 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/profile5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -613,7 +683,7 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/profile5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -635,7 +705,7 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/profile5.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg" class="img-fluid rounded-top w-100" alt="Image">
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
                                 </div>
@@ -748,12 +818,12 @@
         <div class="container text-center py-5">
 
             <!-- SOCIAL -->
-            <div class="mb-5">
-                <div class="d-flex justify-content-center gap-3">
-                    <a href="#" class="footer-icon text-white">
-                        <i class="fab fa-facebook-f"></i>
+            <div class="mb-4">
+                <div class="d-flex justify-content-center align-items-center gap-3">
+                    <a href="#" class="footer-icon">
+                        <i class="fab fa-whatsapp"></i>
                     </a>
-                    <a href="https://www.instagram.com/olo.padangbarat/" target="_blank" class="footer-icon text-white">
+                    <a href="https://www.instagram.com/olo.padangbarat/" target="_blank" class="footer-icon">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>
@@ -764,21 +834,21 @@
 
                 <!-- JAM OPERASIONAL -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="footer-card text-center">
+                    <div class="footer-card">
                         <h5 class="footer-title">Jam Operasional</h5>
                         <div class="footer-divider"></div>
 
-                        <p class="footer-text mb-2">
+                        <p class="footer-text">
                             <strong>Senin - Kamis</strong><br>
                             07.30 - 16.00 WIB
                         </p>
 
-                        <p class="footer-text mb-2">
+                        <p class="footer-text">
                             <strong>Jumat</strong><br>
                             07.30 - 16.30 WIB
                         </p>
 
-                        <p class="footer-text">
+                        <p class="footer-text mb-0">
                             <strong>Sabtu - Minggu</strong><br>
                             Libur
                         </p>
@@ -787,16 +857,16 @@
 
                 <!-- KONTAK -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="footer-card text-center">
+                    <div class="footer-card">
                         <h5 class="footer-title">Informasi Kontak</h5>
                         <div class="footer-divider"></div>
 
-                        <p class="footer-text mb-2">
+                        <p class="footer-text">
                             <i class="fas fa-map-marker-alt me-2 text-primary"></i>
-                            Jl. Pemuda No.28B, Olo, Padang Barat
+                            Jl. Pemuda No.28B, Olo, Padang Barat, Kota Padang
                         </p>
 
-                        <p class="footer-text mb-2">
+                        <p class="footer-text">
                             <i class="fas fa-envelope me-2 text-primary"></i>
                             info@example.com
                         </p>

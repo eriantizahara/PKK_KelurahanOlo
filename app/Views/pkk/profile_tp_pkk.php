@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Profile TP PKK</title>
+    <title>PKK - Kelurahan Olo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -176,14 +176,19 @@
         </nav>
 
         <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
+        <div class="container-fluid bg-breadcrumb"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('<?= base_url() ?>/assets/img/14.png') center center/cover no-repeat;">
+
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Profile</h4>
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Pemberdayaan dan Kesejahteraan Keluarga (PKK)</h4>
+
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="/">Beranda</a></li>
                     <li class="breadcrumb-item active text-primary">Profile TP PKK</li>
                 </ol>
             </div>
+
         </div>
         <!-- Header End -->
     </div>
@@ -334,7 +339,7 @@
         <div class="row align-items-center mb-5">
 
             <div class="col-md-5">
-                <img src="<?= base_url() ?>/assets/img/about.jpg" class="img-fluid rounded shadow">
+                <img src="<?= base_url() ?>/assets/img/12.png" class="img-fluid rounded shadow" style="width: 98%; height: auto;">
             </div>
 
             <div class="col-md-7">
