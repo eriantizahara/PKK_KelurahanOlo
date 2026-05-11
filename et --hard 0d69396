@@ -1,0 +1,30 @@
+[33m805c9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to ORIG_HEAD
+[33ma431511[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull: Fast-forward
+[33m805c9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{2}: checkout: moving from beranda to main
+[33m0d69396[m[33m ([m[1;31morigin/beranda[m[33m)[m HEAD@{3}: commit: ini bagian berandanya zar
+[33m805c9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{4}: checkout: moving from main to beranda
+[33m805c9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{5}: checkout: moving from fiturs to main
+[33m670c71b[m[33m ([m[1;31morigin/fiturs[m[33m, [m[1;32mfiturs[m[33m)[m HEAD@{6}: reset: moving to HEAD
+[33m670c71b[m[33m ([m[1;31morigin/fiturs[m[33m, [m[1;32mfiturs[m[33m)[m HEAD@{7}: reset: moving to HEAD
+[33m670c71b[m[33m ([m[1;31morigin/fiturs[m[33m, [m[1;32mfiturs[m[33m)[m HEAD@{8}: commit: penambahan profile dan kontak
+[33m805c9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{9}: checkout: moving from main to fiturs
+[33m805c9ed[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{10}: pull: Fast-forward
+[33m18eabbf[m HEAD@{11}: pull: Fast-forward
+[33mcc8367f[m HEAD@{12}: checkout: moving from profiles to main
+[33m1ca71ae[m[33m ([m[1;31morigin/profiles[m[33m)[m HEAD@{13}: commit: perbaikan bagian profile
+[33mcc8367f[m HEAD@{14}: checkout: moving from main to profiles
+[33mcc8367f[m HEAD@{15}: pull: Fast-forward
+[33m270b372[m HEAD@{16}: checkout: moving from profile to main
+[33m4335e72[m[33m ([m[1;31morigin/profile[m[33m)[m HEAD@{17}: commit: bagian profile kelurahan olo
+[33m270b372[m HEAD@{18}: checkout: moving from main to profile
+[33m270b372[m HEAD@{19}: pull: Fast-forward
+[33m5eff04f[m HEAD@{20}: checkout: moving from header to main
+[33mebc7d7a[m[33m ([m[1;31morigin/header[m[33m)[m HEAD@{21}: commit: edit bagian menu header
+[33m2df18ee[m[33m ([m[1;31morigin/edits[m[33m, [m[1;32medits[m[33m)[m HEAD@{22}: checkout: moving from edits to header
+[33m2df18ee[m[33m ([m[1;31morigin/edits[m[33m, [m[1;32medits[m[33m)[m HEAD@{23}: commit: edit lagi bagian landing page
+[33m5eff04f[m HEAD@{24}: checkout: moving from main to edits
+[33m5eff04f[m HEAD@{25}: pull: Fast-forward
+[33m2c2b0f9[m HEAD@{26}: checkout: moving from edit to main
+[33m3ff66b0[m[33m ([m[1;31morigin/edit[m[33m)[m HEAD@{27}: commit: edit bagian landing page
+[33m2c2b0f9[m HEAD@{28}: checkout: moving from main to edit
+[33m2c2b0f9[m HEAD@{29}: clone: from https://github.com/eriantizahara/PKK_KelurahanOlo.git
