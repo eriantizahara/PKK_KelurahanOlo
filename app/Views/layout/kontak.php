@@ -98,7 +98,7 @@
         <!-- HEADER -->
         <div class="container-fluid bg-breadcrumb"
             style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-            url('<?= base_url() ?>/assets/img/15.png') center center/cover no-repeat;">
+            url('<?= base_url() ?>/assets/img/slide1.png') center center/cover no-repeat;">
 
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Kontak Kelurahan Olo</h4>

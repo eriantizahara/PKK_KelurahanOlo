@@ -221,7 +221,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
-                        <img src="<?= base_url() ?>/assets/img/15.png" class="img-fluid w-100" alt="Image">
+                        <img src="<?= base_url() ?>/assets/img/slide1.png" class="img-fluid w-100" alt="Image">
                         <div class="carousel-caption-1">
                             <div class="carousel-caption-1-content" style="max-width: 900px;">
                                 <!-- <h4 class="text-white text-uppercase fw-bold mb-4 fadeInLeft animated" data-animation="fadeInLeft" data-delay="1s" style="animation-delay: 1s;" style="letter-spacing: 3px;">Importance life</h4> -->
