@@ -29,6 +29,138 @@
     <link href="<?= base_url() ?>/assets/css/style.css" rel="stylesheet">
 
     <style>
+        /* =========================
+        GLOBAL
+    ========================== */
+        body {
+            overflow-x: hidden;
+        }
+
+        /* =========================
+        TEAM SECTION
+    ========================== */
+
+        .team-scroll {
+            scrollbar-width: thin;
+            scroll-behavior: smooth;
+            scroll-snap-type: x mandatory;
+            padding-bottom: 12px;
+        }
+
+        .team-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .team-scroll::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+        }
+
+        .team-scroll::-webkit-scrollbar-thumb {
+            background: #0d6efd;
+            border-radius: 20px;
+        }
+
+        .team-scroll::-webkit-scrollbar-thumb:hover {
+            background: #0b5ed7;
+        }
+
+        .team-card {
+            min-width: 300px;
+            max-width: 300px;
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            transition: all 0.4s ease;
+        }
+
+        .team-card:hover {
+            transform: translateY(-10px) scale(1.02);
+        }
+
+        .team-item {
+            background: #ffffff;
+            border-radius: 18px;
+            overflow: visible;
+            transition: 0.4s ease;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .team-item:hover {
+            box-shadow: 0 15px 35px rgba(13, 110, 253, 0.18);
+        }
+
+        .team-inner {
+            border-radius: 18px;
+            overflow: visible;
+        }
+
+        .team-img {
+            position: relative;
+            overflow: visible !important;
+        }
+
+        .team-img img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .team-item:hover .team-img img {
+            transform: scale(1.05);
+        }
+
+        .team-share {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 2;
+        }
+
+        .team-icon {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(8px);
+            opacity: 0;
+            transition: 0.4s;
+        }
+
+        .team-item:hover .team-icon {
+            opacity: 1;
+            bottom: 20px;
+        }
+
+        .team-icon .btn {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            border: none;
+            transition: 0.3s;
+        }
+
+        .team-icon .btn:hover {
+            background: #0d6efd;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
+        .team-item h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+
+        .team-item p {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        /* =========================
+        FOOTER
+    ========================== */
+
         .footer-modern {
             background: linear-gradient(135deg, #020617, #0f172a);
             color: #cbd5f5;
@@ -37,97 +169,8 @@
         .footer-title {
             color: #fff;
             font-weight: 600;
-            margin-bottom: 20px;
-            letter-spacing: 0.5px;
-        }
-
-        .footer-text {
-            color: #94a3b8;
-            font-size: 14px;
-        }
-
-        .footer-icon {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(255, 255, 255, 0.05);
-            transition: 0.3s;
-        }
-
-        .footer-icon:hover {
-            background: #0d6efd;
-            color: #fff;
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(13, 110, 253, 0.4);
-        }
-
-        .footer-card {
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 15px;
-            padding: 25px;
-            backdrop-filter: blur(8px);
-            transition: 0.3s;
-        }
-
-        .footer-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .footer-divider {
-            width: 60px;
-            height: 3px;
-            background: #0d6efd;
-            margin: 10px auto 20px;
-            border-radius: 10px;
-        }
-
-        .team-img img {
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
-        }
-
-        /* footer */
-        .footer-modern {
-            background: #0d1b2a;
-            color: #ffffff;
-        }
-
-        .footer-icon {
-            width: 45px;
-            height: 45px;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-            color: #fff;
-            transition: 0.3s ease;
-            font-size: 16px;
-        }
-
-        .footer-icon:hover {
-            background: #0d6efd;
-            transform: translateY(-3px);
-        }
-
-        .footer-card {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 25px;
-            border-radius: 15px;
-            backdrop-filter: blur(5px);
-            height: 100%;
-        }
-
-        .footer-title {
-            font-weight: 600;
             margin-bottom: 10px;
+            letter-spacing: 0.5px;
         }
 
         .footer-divider {
@@ -142,17 +185,72 @@
             font-size: 14px;
             line-height: 1.8;
             margin-bottom: 12px;
-            color: #dcdcdc;
+            color: #94a3b8;
         }
 
-        /* ukuran foto side bar */
+        .footer-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 18px;
+            backdrop-filter: blur(8px);
+            transition: 0.4s ease;
+            height: 100%;
+        }
+
+        .footer-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+        }
+
+        .footer-icon {
+            width: 45px;
+            height: 45px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+            color: #fff;
+            transition: 0.3s ease;
+            font-size: 16px;
+        }
+
+        .footer-icon:hover {
+            background: #0d6efd;
+            color: #fff;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+        }
+
+        /* =========================
+        CAROUSEL
+    ========================== */
+
         .carousel-item img {
             width: 100%;
             height: 750px;
-            /* atur tinggi agar semua sama */
             object-fit: cover;
-            /* biar tidak gepeng */
             object-position: center;
+        }
+
+        /* =========================
+        RESPONSIVE
+    ========================== */
+
+        @media (max-width: 768px) {
+
+            .team-card {
+                min-width: 260px;
+                max-width: 260px;
+            }
+
+            .team-img img {
+                height: 280px;
+            }
+
+            .carousel-item img {
+                height: 350px;
+            }
         }
     </style>
 </head>
@@ -628,28 +726,53 @@
 
 
     <!-- Team Start -->
+    <!-- Team Start -->
     <div class="container-fluid team pb-5">
         <div class="container pb-5">
+
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <!-- <h4 class="text-uppercase text-primary">Our Team</h4> -->
-                <h1 class="display-3 text-capitalize mb-3 mt-3">Perangkat Kelurahan</h1>
+                <h1 class="display-3 text-capitalize mb-3 mt-3">
+                    Perangkat Kelurahan
+                </h1>
             </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+
+            <!-- CARD SCROLL -->
+            <div class="d-flex flex-nowrap overflow-auto gap-4 pb-3 team-scroll">
+
+                <!-- CARD 1 -->
+                <div class="team-card wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/pak lurah.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                                <img src="<?= base_url() ?>/assets/img/pak lurah.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image">
+
                                 <div class="team-share">
-                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
+                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
+                                        <i class="fas fa-share-alt"></i>
+                                    </a>
                                 </div>
+
                                 <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
                                 </div>
                             </div>
+
                             <div class="bg-light rounded-bottom text-center py-4">
                                 <h4 class="mb-3">LURAH</h4>
                                 <p class="mb-0">AIDIL PUTRA, S.AP, M.M</p>
@@ -657,21 +780,85 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+
+                <!-- CARD 2 -->
+                <div class="team-card wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg" class="img-fluid rounded-top w-100" alt="Image">
+
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image">
+
                                 <div class="team-share">
-                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
+                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
+                                        <i class="fas fa-share-alt"></i>
+                                    </a>
                                 </div>
+
                                 <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
                                 </div>
                             </div>
+
+                            <div class="bg-light rounded-bottom text-center py-4">
+                                <h4 class="mb-3">Sekretaris Kelurahan</h4>
+                                <p class="mb-0">FIKA ROSIANA A,A.Md</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="team-card wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="team-item p-4">
+                        <div class="team-inner rounded">
+                            <div class="team-img">
+
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image">
+
+                                <div class="team-share">
+                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
+                                        <i class="fas fa-share-alt"></i>
+                                    </a>
+                                </div>
+
+                                <div class="team-icon rounded-pill py-2 px-2">
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+
                             <div class="bg-light rounded-bottom text-center py-4">
                                 <h4 class="mb-3">Pengadministrasi Umum</h4>
                                 <p class="mb-0">PAPATRI WAHYUNINGSIH</p>
@@ -679,53 +866,102 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+
+                <!-- CARD 4 -->
+                <div class="team-card wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg" class="img-fluid rounded-top w-100" alt="Image">
+
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image">
+
                                 <div class="team-share">
-                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
+                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
+                                        <i class="fas fa-share-alt"></i>
+                                    </a>
                                 </div>
+
                                 <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
                                 </div>
                             </div>
+
                             <div class="bg-light rounded-bottom text-center py-4">
-                                <h4 class="mb-3">KASI PM dan KESOS</h4>
-                                <p class="mb-0">FIKA ROSIANA A,A.Md</p>
+                                <h4 class="mb-3">Staf KASI PM dan KESOS</h4>
+                                <p class="mb-0">NIKEN PERMATA BUNDA</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+
+                <!-- CARD 5 -->
+                <div class="team-card wow fadeInUp" data-wow-delay="1s">
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg" class="img-fluid rounded-top w-100" alt="Image">
+
+                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image">
+
                                 <div class="team-share">
-                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href=""><i class="fas fa-share-alt"></i></a>
+                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
+                                        <i class="fas fa-share-alt"></i>
+                                    </a>
                                 </div>
+
                                 <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
                                 </div>
                             </div>
+
                             <div class="bg-light rounded-bottom text-center py-4">
                                 <h4 class="mb-3">KASI TRANTIB & PB</h4>
-                                <p class="mb-0">DASRIL,SE</p>
+                                <p class="mb-0">DASRIL, SE</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+            <!-- END CARD SCROLL -->
+
         </div>
     </div>
+    <!-- Team End -->
+
+
+
     <!-- Team End -->
 
     <!-- Testimonial Start -->
