@@ -119,6 +119,19 @@
         font-size: 14.5px;
         line-height: 1.6;
     }
+
+    .gallery-img {
+        width: 100%;
+        height: 250px;
+        /* ukuran tinggi tetap */
+        object-fit: cover;
+        border-radius: 10px;
+        transition: 0.3s ease;
+    }
+
+    .gallery-img:hover {
+        transform: scale(1.03);
+    }
 </style>
 
 <body>
@@ -338,8 +351,12 @@
         <!-- SECTION: GAMBAR + DESKRIPSI -->
         <div class="row align-items-center mb-5">
 
-            <div class="col-md-5">
-                <img src="<?= base_url() ?>/assets/img/pkk1.jpeg" class="img-fluid rounded shadow" style="width: 98%; height: auto;">
+            <div class="col-md-5 mb-4">
+                <div class="hover-card">
+                    <img src="<?= base_url() ?>/assets/img/pkk1.jpeg"
+                        class="img-fluid rounded shadow"
+                        style="width: 100%; height: auto;">
+                </div>
             </div>
 
             <div class="col-md-7">
@@ -411,6 +428,314 @@
                 </table>
             </div>
 
+        </div>
+
+
+        <!-- SECTION: DOKUMENTASI -->
+        <div class="bg-white p-4 p-md-5 rounded shadow-sm mt-5">
+
+            <h4 class="fw-bold text-center mb-4 text-primary">
+                <i class="fas fa-images"></i> Dokumentasi Kegiatan TP PKK Kelurahan Olo
+            </h4>
+
+            <div class="row g-4">
+
+                <!-- FOTO 1 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/12.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 1">
+                    </div>
+                </div>
+
+                <!-- FOTO 2 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/11.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 2">
+                    </div>
+                </div>
+
+                <!-- FOTO 3 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/13.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 3">
+                    </div>
+                </div>
+
+                <!-- FOTO 4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/14.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 4">
+                    </div>
+                </div>
+
+                <!-- FOTO 5 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/15.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 5">
+                    </div>
+                </div>
+
+                <!-- FOTO 6 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/16.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 6">
+                    </div>
+                </div>
+
+                <!-- FOTO 7 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/17.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 7">
+                    </div>
+                </div>
+
+                <!-- FOTO 8 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/18.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 8">
+                    </div>
+                </div>
+
+                <!-- FOTO 9 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/19.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 9">
+                    </div>
+                </div>
+
+                <!-- FOTO 10 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/20.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 10">
+                    </div>
+                </div>
+
+                <!-- FOTO 11 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/21.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 11">
+                    </div>
+                </div>
+
+                <!-- FOTO 12 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/22.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 12">
+                    </div>
+                </div>
+
+                <!-- FOTO 13 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/23.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 13">
+                    </div>
+                </div>
+
+                <!-- FOTO 14 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/24.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 14">
+                    </div>
+                </div>
+
+                <!-- FOTO 15 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/25.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 15">
+                    </div>
+                </div>
+
+                <!-- FOTO 16 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/26.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 16">
+                    </div>
+                </div>
+
+                <!-- FOTO 17 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/27.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 17">
+                    </div>
+                </div>
+
+                <!-- FOTO 18 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/28.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 18">
+                    </div>
+                </div>
+
+                <!-- FOTO 19 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/29.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 19">
+                    </div>
+                </div>
+
+                <!-- FOTO 20 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/30.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 20">
+                    </div>
+                </div>
+
+                <!-- FOTO 21 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/31.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 21">
+                    </div>
+                </div>
+
+                <!-- FOTO 22 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/32.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 22">
+                    </div>
+                </div>
+
+                <!-- FOTO 23 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/33.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 23">
+                    </div>
+                </div>
+
+                <!-- FOTO 24 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/34.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 24">
+                    </div>
+                </div>
+
+                <!-- FOTO 25 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/35.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 25">
+                    </div>
+                </div>
+
+                <!-- FOTO 26 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/36.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 26">
+                    </div>
+                </div>
+
+                <!-- FOTO 27 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/37.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 27">
+                    </div>
+                </div>
+
+                <!-- FOTO 28 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/38.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 28">
+                    </div>
+                </div>
+
+                <!-- FOTO 29 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/39.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 29">
+                    </div>
+                </div>
+
+                <!-- FOTO 30 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/40.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 30">
+                    </div>
+                </div>
+
+                <!-- FOTO 31 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/41.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 31">
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/42.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 31">
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="hover-card">
+                        <img src="<?= base_url() ?>/assets/img/43.jpeg"
+                            class="gallery-img shadow-sm"
+                            alt="Dokumentasi 31">
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </div>

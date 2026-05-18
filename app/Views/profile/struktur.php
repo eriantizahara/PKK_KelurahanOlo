@@ -83,6 +83,10 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
+
+        .tupoksi-section {
+            margin-top: -150px;
+        }
     </style>
 
 
@@ -281,7 +285,7 @@
     <!-- Footer Start -->
 
     <!-- TUPOKSI START -->
-    <div class="container py-5">
+    <div class="container py-5 tupoksi-section">
 
         <div class="text-center mb-5">
             <h2 class="fw-bold">Tugas Pokok & Fungsi</h2>
