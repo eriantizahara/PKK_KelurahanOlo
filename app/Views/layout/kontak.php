@@ -179,8 +179,12 @@
                                     </div>
                                     <div>
                                         <h6 class="fw-bold">WhatsApp</h6>
-                                        <a href="https://wa.me/6281234567890" class="fw-semibold">
-                                            0812-3456-7890
+                                        <a href="https://wa.me/6282286217712" class="fw-semibold">
+                                            0822-8621-7712
+                                        </a> 
+                                        <br>
+                                        <a href="https://wa.me/6282284504704" class="fw-semibold">
+                                            0822-8450-4704
                                         </a>
                                     </div>
                                 </div>
@@ -196,6 +200,10 @@
                                         <h6 class="fw-bold">Instagram</h6>
                                         <a href="https://www.instagram.com/olo.padangbarat/" target="_blank">
                                             @olo.padangbarat
+                                        </a>
+                                        <br>
+                                        <a href="https://www.instagram.com/pkk_olo/" target="_blank">
+                                            @pkk_olo
                                         </a>
                                     </div>
                                 </div>
@@ -215,7 +223,7 @@
                             Hubungi kami langsung melalui WhatsApp atau kunjungi Instagram kami.
                         </p>
 
-                        <a href="https://wa.me/6281234567890"
+                        <a href="https://wa.me/6282286217712"
                             class="btn btn-success rounded-pill py-3 mb-3 quick-btn">
                             <i class="fab fa-whatsapp me-2"></i> Chat WhatsApp
                         </a>

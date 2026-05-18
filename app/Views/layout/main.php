@@ -334,7 +334,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= base_url() ?>/assets/img/14.png" class="img-fluid w-100" alt="Image">
+                        <img src="<?= base_url() ?>/assets/img/4.jpeg" class="img-fluid w-100" alt="Image">
                         <div class="carousel-caption-2">
                             <div class="carousel-caption-2-content" style="max-width: 900px;">
                                 <!-- <h4 class="text-white text-uppercase fw-bold mb-4 fadeInRight animated" data-animation="fadeInRight" data-delay="1s" style="animation-delay: 1s;" style="letter-spacing: 3px;">Importance life</h4> -->
@@ -499,7 +499,7 @@
                         </div>
                         <h4 class="text-white my-4">Perangkat Kelurahan</h4>
                         <div class="counter-counting">
-                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">4</span>
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">6</span>
                             <span class="h1 fw-bold text-white">+</span>
                         </div>
                     </div>
@@ -726,7 +726,6 @@
 
 
     <!-- Team Start -->
-    <!-- Team Start -->
     <div class="container-fluid team pb-5">
         <div class="container pb-5">
 
@@ -744,31 +743,13 @@
                     <div class="team-item p-4">
                         <div class="team-inner rounded">
                             <div class="team-img">
-                                <img src="<?= base_url() ?>/assets/img/pak lurah.jpg"
+                                <img src="<?= base_url() ?>/assets/img/lurah.jpeg"
                                     class="img-fluid rounded-top w-100"
                                     alt="Image">
 
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
                                         <i class="fas fa-share-alt"></i>
-                                    </a>
-                                </div>
-
-                                <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -787,31 +768,13 @@
                         <div class="team-inner rounded">
                             <div class="team-img">
 
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                <img src="<?= base_url() ?>/assets/img/kakfika.jpeg"
                                     class="img-fluid rounded-top w-100"
                                     alt="Image">
 
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
                                         <i class="fas fa-share-alt"></i>
-                                    </a>
-                                </div>
-
-                                <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -830,31 +793,13 @@
                         <div class="team-inner rounded">
                             <div class="team-img">
 
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                <img src="<?= base_url() ?>/assets/img/kakpapat.jpeg"
                                     class="img-fluid rounded-top w-100"
                                     alt="Image">
 
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
                                         <i class="fas fa-share-alt"></i>
-                                    </a>
-                                </div>
-
-                                <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -873,31 +818,13 @@
                         <div class="team-inner rounded">
                             <div class="team-img">
 
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                <img src="<?= base_url() ?>/assets/img/niken.png"
                                     class="img-fluid rounded-top w-100"
                                     alt="Image">
 
                                 <div class="team-share">
                                     <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
                                         <i class="fas fa-share-alt"></i>
-                                    </a>
-                                </div>
-
-                                <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -916,7 +843,7 @@
                         <div class="team-inner rounded">
                             <div class="team-img">
 
-                                <img src="<?= base_url() ?>/assets/img/icon.jpg"
+                                <img src="<?= base_url() ?>/assets/img/kakrima.jpeg"
                                     class="img-fluid rounded-top w-100"
                                     alt="Image">
 
@@ -925,22 +852,29 @@
                                         <i class="fas fa-share-alt"></i>
                                     </a>
                                 </div>
+                            </div>
 
-                                <div class="team-icon rounded-pill py-2 px-2">
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill mx-1" href="">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
+                            <div class="bg-light rounded-bottom text-center py-4">
+                                <h4 class="mb-3">Staf KASI PM dan KESOS</h4>
+                                <p class="mb-0">RIEMA AGMARITHA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
+                <!-- CARD 5 -->
+                <div class="team-card wow fadeInUp" data-wow-delay="1.2s">
+                    <div class="team-item p-4">
+                        <div class="team-inner rounded">
+                            <div class="team-img">
 
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
+                                <img src="<?= base_url() ?>/assets/img/pakdasril.jpeg"
+                                    class="img-fluid rounded-top w-100"
+                                    alt="Image">
 
-                                    <a class="btn btn-secondary btn-sm-square rounded-pill me-1" href="">
-                                        <i class="fab fa-instagram"></i>
+                                <div class="team-share">
+                                    <a class="btn btn-secondary btn-md-square rounded-pill text-white mx-1" href="">
+                                        <i class="fas fa-share-alt"></i>
                                     </a>
                                 </div>
                             </div>
@@ -1104,12 +1038,14 @@
 
                         <p class="footer-text">
                             <i class="fas fa-envelope me-2 text-primary"></i>
-                            info@example.com
+                            info@olopadangbarat.go.id
                         </p>
 
                         <p class="footer-text mb-0">
                             <i class="fas fa-phone me-2 text-primary"></i>
-                            +62 812-3456-7890
+                            +62 822-8621-7712 : Lurah<br>
+                            +62 822-8450-4704 : Sekretaris Kelurahan<br>
+                            
                         </p>
                     </div>
                 </div>
