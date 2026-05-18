@@ -178,7 +178,7 @@
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb"
             style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-            url('<?= base_url() ?>/assets/img/14.png') center center/cover no-repeat;">
+            url('<?= base_url() ?>/assets/img/4.jpeg') center center/cover no-repeat;">
 
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Pemberdayaan dan Kesejahteraan Keluarga (PKK)</h4>
@@ -339,7 +339,7 @@
         <div class="row align-items-center mb-5">
 
             <div class="col-md-5">
-                <img src="<?= base_url() ?>/assets/img/12.png" class="img-fluid rounded shadow" style="width: 98%; height: auto;">
+                <img src="<?= base_url() ?>/assets/img/pkk1.jpeg" class="img-fluid rounded shadow" style="width: 98%; height: auto;">
             </div>
 
             <div class="col-md-7">

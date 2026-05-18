@@ -231,7 +231,8 @@
                 <!-- SEKRETARIS -->
                 <rect class="box" x="400" y="120" width="220" height="70" />
                 <text class="title" x="510" y="145" text-anchor="middle">Sekretaris</text>
-                <text class="name" x="510" y="165" text-anchor="middle">-</text>
+                <text class="name" x="510" y="165" text-anchor="middle">FIKA ROSIANA, A.Md</text>
+                <text class="small" x="510" y="180" text-anchor="middle">NIP. 19901219 201502 2002</text>
 
                 <!-- LINE -->
                 <line class="line" x1="510" y1="190" x2="510" y2="230" />
@@ -244,7 +245,7 @@
                 <rect class="box" x="90" y="100" width="220" height="80" />
                 <text class="title" x="200" y="120" text-anchor="middle">Pengadministrasi Umum</text>
                 <text class="name" x="200" y="145" text-anchor="middle">PAPATRI WAHYUNINGSIH</text>
-                <text class="small" x="200" y="165" text-anchor="middle">No. PPPK</text>
+                <text class="small" x="200" y="165" text-anchor="middle">No. Induk PPPK</text>
                 <text class="small" x="200" y="178" text-anchor="middle">198506302025212029</text>
 
                 <!-- LINE KE KASI -->
@@ -263,8 +264,8 @@
                 <line class="line" x1="510" y1="280" x2="510" y2="320" />
                 <rect class="box" x="420" y="320" width="180" height="75" />
                 <text class="name" x="510" y="340" text-anchor="middle">Kasi PM dan Kesos</text>
-                <text class="name" x="510" y="360" text-anchor="middle">FIKA ROSIANA, A.Md</text>
-                <text class="small" x="510" y="378" text-anchor="middle">NIP. 19901219 201502 2002</text>
+                <text class="name" x="510" y="360" text-anchor="middle">NIKEN PERMATA BUNDA</text>
+                <text class="small" x="510" y="378" text-anchor="middle">NIP. 20000826 202521 2011</text>
 
                 <!-- KASI 3 -->
                 <line class="line" x1="720" y1="280" x2="720" y2="320" />
