@@ -990,8 +990,8 @@
             <!-- SOCIAL -->
             <div class="mb-4">
                 <div class="d-flex justify-content-center align-items-center gap-3">
-                    <a href="#" class="footer-icon">
-                        <i class="fab fa-whatsapp"></i>
+                    <a href="https://www.tiktok.com/@tppkkkelurahanolo8?_r=1&_t=ZS-96SH4SWxB2n" class="footer-icon">
+                        <i class="fab fa-tiktok"></i>
                     </a>
                     <a href="https://www.instagram.com/olo.padangbarat/" target="_blank" class="footer-icon">
                         <i class="fab fa-instagram"></i>
@@ -1038,14 +1038,13 @@
 
                         <p class="footer-text">
                             <i class="fas fa-envelope me-2 text-primary"></i>
-                            info@olopadangbarat.go.id
+                            olopadangbarat@gmail.com
                         </p>
 
                         <p class="footer-text mb-0">
                             <i class="fas fa-phone me-2 text-primary"></i>
-                            +62 822-8621-7712 : Lurah<br>
-                            +62 822-8450-4704 : Sekretaris Kelurahan<br>
-                            
+                            Lurah                : +62 822-8621-7712 <br>
+                            Sekretaris Kelurahan : +62 822-8450-4704
                         </p>
                     </div>
                 </div>
@@ -1059,7 +1058,7 @@
     <div style="background:#020617;">
         <div class="container text-center py-3">
             <p class="mb-0 text-secondary" style="font-size:14px;">
-                © 2026 PKK Kelurahan Olo • All Rights Reserved
+                © 2026 Kelurahan Olo • All Rights Reserved
             </p>
         </div>
     </div>
